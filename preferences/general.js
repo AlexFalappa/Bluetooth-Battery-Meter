@@ -9,6 +9,7 @@ export const  General = GObject.registerClass({
     Template: GLib.Uri.resolve_relative(import.meta.url, '../ui/general.ui', GLib.UriFlags.NONE),
     InternalChildren: [
         'enable_battery_indicator',
+        'enable_battery_indicator_text',
         'enable_battery_level_icon',
         'enable_battery_level_text',
         'swap_icon_text',
@@ -22,6 +23,12 @@ export const  General = GObject.registerClass({
         this._settings.bind(
             'enable-battery-indicator',
             this._enable_battery_indicator,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+        this._settings.bind(
+            'enable-battery-indicator-text',
+            this._enable_battery_indicator_text,
             'active',
             Gio.SettingsBindFlags.DEFAULT
         );
@@ -51,7 +58,7 @@ export const  General = GObject.registerClass({
     _setRowSensitivity() {
         const status = this._settings.get_boolean('enable-battery-level-text') && this._settings.get_boolean('enable-battery-level-icon');
         this._swap_icon_text_row.sensitive = status;
-        if(!status)
-            this._settings.set_boolean('swap-icon-text', false)
+        if (!status)
+            this._settings.set_boolean('swap-icon-text', false);
     }
 });

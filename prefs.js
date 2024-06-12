@@ -3,6 +3,7 @@ import Gtk from 'gi://Gtk';
 import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 import {General} from './preferences/general.js';
+import {Device} from './preferences/device.js';
 import {About} from './preferences/about.js';
 
 export default class BluetoothBatteryMeterPrefs extends ExtensionPreferences {
@@ -14,6 +15,7 @@ export default class BluetoothBatteryMeterPrefs extends ExtensionPreferences {
         const settings = this.getSettings();
         window.set_default_size(650, 700);
         window.add(new General(settings));
+        window.add(new Device(settings));
         window.add(new About(this));
     }
 }
