@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell 3.3.90\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 10:25-0800\n"
+"POT-Creation-Date: 2024-06-14 17:51-0700\n"
 "PO-Revision-Date: 2023-10-05 15:33+0800\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://darkbear.mercusysddns.com/"
@@ -29,7 +29,7 @@ msgstr "中斷連接"
 msgid "Connect"
 msgstr "連接"
 
-#: lib/bluetoothToggle.js:142
+#: lib/bluetoothToggle.js:263
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -50,6 +50,26 @@ msgid ""
 "This application comes with absolutely no warranty. See the <a "
 "href=\"%s\">%s</a> for details."
 msgstr "這個程式沒有任何擔保責任。如需更多資訊，請參閱<a href=\"%s\">%s</a>。"
+
+#: preferences/device.js:34
+msgid "Show all"
+msgstr ""
+
+#: preferences/device.js:35
+msgid "Hide all"
+msgstr ""
+
+#: preferences/device.js:36
+msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:108
+msgid "(Removed)"
+msgstr ""
+
+#: preferences/device.js:109
+msgid "(Paired)"
+msgstr ""
 
 #: ui/about.ui:5
 msgid "About"
@@ -83,6 +103,22 @@ msgstr "Crowdin"
 msgid "Online Tutorials"
 msgstr "線上教學"
 
+#: ui/device.ui:5
+msgid "Device"
+msgstr ""
+
+#: ui/device.ui:9
+msgid "Show / hide battery information per device"
+msgstr ""
+
+#: ui/device.ui:10
+msgid "Note: General Setting overrides per device settings"
+msgstr ""
+
+#: ui/device.ui:13
+msgid "No battery reporting capable device paired!"
+msgstr ""
+
 #: ui/general.ui:5
 msgid "General"
 msgstr "一般設定"
@@ -99,40 +135,50 @@ msgstr "啟用藍牙裝置電池指示器"
 msgid "Show icon in system tray with device battery level"
 msgstr "在系統工具列上顯示裝置電池電量圖示"
 
-#: ui/general.ui:26
+#: ui/general.ui:24
+msgid "Show percentage in text"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Add text in percentage next to battery indicators icon"
+msgstr ""
+
+#: ui/general.ui:39
 msgid "Quick Menu Settings"
 msgstr "快速選單設定"
 
-#: ui/general.ui:29
+#: ui/general.ui:42
 msgid "Show Bluetooth device battery level icon"
 msgstr "顯示藍牙裝置電池電量圖示"
 
-#: ui/general.ui:30
+#: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
 msgstr "在彈出選單中顯示藍牙裝置電池電量圖示"
 
-#: ui/general.ui:41
+#: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
 msgstr "顯示藍牙裝置電池百分比"
 
-#: ui/general.ui:42
+#: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
 msgstr "以文字顯示藍牙裝置電池電量百分比"
 
-#: ui/general.ui:53
+#: ui/general.ui:66
 msgid "Display battery level icon before text"
 msgstr "在文字前顯示電池電量圖示"
 
-#: ui/general.ui:54
+#: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "交換電池電量圖示與百分比文字的位置"
 
-#: ui/general.ui:67
+#: ui/general.ui:80
 msgid "Note!"
 msgstr "注意！"
 
-#: ui/general.ui:70
+#: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
-msgstr "某些藍牙裝置在系統啟用 Bluez 的實驗功能前不會回傳電池電量。詳細資訊請查閱 Readme。"
+msgstr ""
+"某些藍牙裝置在系統啟用 Bluez 的實驗功能前不會回傳電池電量。詳細資訊請查閱 "
+"Readme。"

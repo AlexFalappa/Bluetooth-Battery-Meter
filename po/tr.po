@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 10:25-0800\n"
+"POT-Creation-Date: 2024-06-14 17:51-0700\n"
 "PO-Revision-Date: 2024-01-18 09:13+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -27,7 +27,7 @@ msgstr "Bağlantıyı Kes"
 msgid "Connect"
 msgstr "Bağlan"
 
-#: lib/bluetoothToggle.js:142
+#: lib/bluetoothToggle.js:263
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -50,6 +50,26 @@ msgid ""
 msgstr ""
 "Bu program kesinlikle hiçbir garanti vermiyor. Ayrıntılar için <a "
 "href=\"%s\">%s</a> bağlantısına bakın."
+
+#: preferences/device.js:34
+msgid "Show all"
+msgstr ""
+
+#: preferences/device.js:35
+msgid "Hide all"
+msgstr ""
+
+#: preferences/device.js:36
+msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:108
+msgid "(Removed)"
+msgstr ""
+
+#: preferences/device.js:109
+msgid "(Paired)"
+msgstr ""
 
 #: ui/about.ui:5
 msgid "About"
@@ -83,6 +103,22 @@ msgstr "Crowdin"
 msgid "Online Tutorials"
 msgstr "Çevrimiçi Eğitimler"
 
+#: ui/device.ui:5
+msgid "Device"
+msgstr ""
+
+#: ui/device.ui:9
+msgid "Show / hide battery information per device"
+msgstr ""
+
+#: ui/device.ui:10
+msgid "Note: General Setting overrides per device settings"
+msgstr ""
+
+#: ui/device.ui:13
+msgid "No battery reporting capable device paired!"
+msgstr ""
+
 #: ui/general.ui:5
 msgid "General"
 msgstr "Genel"
@@ -99,39 +135,47 @@ msgstr "Bluetooth aygıt pil göstergelerini etkinleştir"
 msgid "Show icon in system tray with device battery level"
 msgstr "Sistem tepsisinde aygıt pil düzeyi ile birlikte simge göster"
 
-#: ui/general.ui:26
+#: ui/general.ui:24
+msgid "Show percentage in text"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Add text in percentage next to battery indicators icon"
+msgstr ""
+
+#: ui/general.ui:39
 msgid "Quick Menu Settings"
 msgstr "Hızlı Menü Ayarları"
 
-#: ui/general.ui:29
+#: ui/general.ui:42
 msgid "Show Bluetooth device battery level icon"
 msgstr "Bluetooth aygıtının pil düzeyi simgesini göster"
 
-#: ui/general.ui:30
+#: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
 msgstr "Bluetooth aygıtının pil düzeyini gösteren açılır menüde simge gösterir"
 
-#: ui/general.ui:41
+#: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
 msgstr "Bluetooth aygıtının pil yüzdesini göster"
 
-#: ui/general.ui:42
+#: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
 msgstr "Bluetooth aygıtının pil düzeyi yüzdesini metin olarak gösterir"
 
-#: ui/general.ui:53
+#: ui/general.ui:66
 msgid "Display battery level icon before text"
 msgstr "Pil düzeyi simgesini metinden önce göster"
 
-#: ui/general.ui:54
+#: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "Pil düzeyi simgesi ile yüzde metninin konumunu değiştirir"
 
-#: ui/general.ui:67
+#: ui/general.ui:80
 msgid "Note!"
 msgstr "Not!"
 
-#: ui/general.ui:70
+#: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."

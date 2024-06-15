@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 10:25-0800\n"
+"POT-Creation-Date: 2024-06-14 17:51-0700\n"
 "PO-Revision-Date: 2023-09-14 22:56+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
@@ -33,7 +33,7 @@ msgstr "Malkonekti"
 msgid "Connect"
 msgstr "Konekti"
 
-#: lib/bluetoothToggle.js:142
+#: lib/bluetoothToggle.js:263
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -57,6 +57,26 @@ msgid ""
 msgstr ""
 "Ĉi tiu aplikaĵo estas sen ajna garantiado. Vidu la <a href=\"%s\">%s</a> por "
 "detaloj."
+
+#: preferences/device.js:34
+msgid "Show all"
+msgstr ""
+
+#: preferences/device.js:35
+msgid "Hide all"
+msgstr ""
+
+#: preferences/device.js:36
+msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:108
+msgid "(Removed)"
+msgstr ""
+
+#: preferences/device.js:109
+msgid "(Paired)"
+msgstr ""
 
 #: ui/about.ui:5
 msgid "About"
@@ -90,6 +110,22 @@ msgstr ""
 msgid "Online Tutorials"
 msgstr ""
 
+#: ui/device.ui:5
+msgid "Device"
+msgstr ""
+
+#: ui/device.ui:9
+msgid "Show / hide battery information per device"
+msgstr ""
+
+#: ui/device.ui:10
+msgid "Note: General Setting overrides per device settings"
+msgstr ""
+
+#: ui/device.ui:13
+msgid "No battery reporting capable device paired!"
+msgstr ""
+
 #: ui/general.ui:5
 msgid "General"
 msgstr ""
@@ -106,39 +142,47 @@ msgstr ""
 msgid "Show icon in system tray with device battery level"
 msgstr ""
 
-#: ui/general.ui:26
+#: ui/general.ui:24
+msgid "Show percentage in text"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Add text in percentage next to battery indicators icon"
+msgstr ""
+
+#: ui/general.ui:39
 msgid "Quick Menu Settings"
 msgstr ""
 
-#: ui/general.ui:29
+#: ui/general.ui:42
 msgid "Show Bluetooth device battery level icon"
 msgstr ""
 
-#: ui/general.ui:30
+#: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
 msgstr ""
 
-#: ui/general.ui:41
+#: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
 msgstr ""
 
-#: ui/general.ui:42
+#: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
 msgstr ""
 
-#: ui/general.ui:53
+#: ui/general.ui:66
 msgid "Display battery level icon before text"
 msgstr ""
 
-#: ui/general.ui:54
+#: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
 msgstr ""
 
-#: ui/general.ui:67
+#: ui/general.ui:80
 msgid "Note!"
 msgstr ""
 
-#: ui/general.ui:70
+#: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
