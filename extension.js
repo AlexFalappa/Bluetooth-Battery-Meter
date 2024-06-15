@@ -17,7 +17,7 @@ class BluetoothBatteryMeterExtenstion {
     // Therefore unlock-dialog session mode is used.
     enable() {
         this._settings = ExtensionUtils.getSettings();
-        this._btBatteryMeter = new BlutoothToggle.BluetoothBatteryMeter(Me, this._settings);
+        this._btBatteryMeter = new BlutoothToggle.BluetoothBatteryMeter(this._settings, Me.path);
     }
 
     disable() {

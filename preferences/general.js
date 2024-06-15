@@ -12,6 +12,7 @@ var General = GObject.registerClass({
     Template: `file://${GLib.build_filenamev([Me.path, 'ui', 'general.ui'])}`,
     InternalChildren: [
         'enable_battery_indicator',
+        'enable_battery_indicator_text',
         'enable_battery_level_icon',
         'enable_battery_level_text',
         'swap_icon_text',
@@ -25,6 +26,12 @@ var General = GObject.registerClass({
         this._settings.bind(
             'enable-battery-indicator',
             this._enable_battery_indicator,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+        this._settings.bind(
+            'enable-battery-indicator-text',
+            this._enable_battery_indicator_text,
             'active',
             Gio.SettingsBindFlags.DEFAULT
         );

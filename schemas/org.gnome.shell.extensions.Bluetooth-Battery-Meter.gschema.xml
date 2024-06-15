@@ -5,6 +5,10 @@
             <default>true</default>
             <summary>Show icon in system tray with device battery level</summary>
         </key>
+        <key name="enable-battery-indicator-text" type="b">
+            <default>false</default>
+            <summary>Show text next to icon in system tray with device battery level</summary>
+        </key>
         <key name="enable-battery-level-icon" type="b">
             <default>true</default>
             <summary>Displays an icon  showing bluetooth device battery level in bluetooth quickmenu</summary>
@@ -16,6 +20,10 @@
         <key name="swap-icon-text" type="b">
             <default>false</default>
             <summary>Display battery level icon before level percentage text in quick menu</summary>
+        </key>
+        <key name="paired-supported-device-list" type="as">
+            <default>[]</default>
+            <summary>List of paired devices that reports battery level</summary>
         </key>
     </schema>
 </schemalist>

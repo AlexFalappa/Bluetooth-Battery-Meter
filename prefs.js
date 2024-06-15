@@ -4,6 +4,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 const {General} = Me.imports.preferences.general;
+const {Device} = Me.imports.preferences.device;
 const {About} = Me.imports.preferences.about;
 
 
@@ -15,6 +16,7 @@ function fillPreferencesWindow(window) {
     const settings = ExtensionUtils.getSettings();
     window.set_default_size(650, 700);
     window.add(new General(settings));
+    window.add(new Device(settings));
     window.add(new About(Me));
 }
 
