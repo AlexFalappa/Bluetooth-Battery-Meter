@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:54-0700\n"
+"POT-Creation-Date: 2024-06-14 17:58-0700\n"
 "PO-Revision-Date: 2024-01-18 09:13+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -78,6 +78,23 @@ msgstr ""
 
 #: preferences/device.js:38
 msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:43
+msgid ""
+"Show all:\n"
+"Shows Indicator icon and battery information in QuickSetting.\n"
+"\n"
+"Hide all:\n"
+"Hide battery information and Indicator icon in QuickSetting.\n"
+"\n"
+"Hide indicator:\n"
+"Hide only Indicator icon, Show battery information in QuickSetting."
+msgstr ""
+
+#: preferences/device.js:69
+msgid ""
+"Delete device information: The button is available after unpairing device"
 msgstr ""
 
 #: preferences/device.js:110

@@ -40,7 +40,7 @@ const  DeviceItem = GObject.registerClass({
         this._selector = new Gtk.DropDown({
             valign: Gtk.Align.CENTER,
             model: list,
-            tooltip_text: 'Show all:\nShows Indicator icon and battery information in QuickSetting.\n\nHide all:\nHide battery information and Indicator icon in QuickSetting.\n\nHide indicator:\nHide only Indicator icon, Show battery information in QuickSetting.',
+            tooltip_text: _('Show all:\nShows Indicator icon and battery information in QuickSetting.\n\nHide all:\nHide battery information and Indicator icon in QuickSetting.\n\nHide indicator:\nHide only Indicator icon, Show battery information in QuickSetting.'),
         });
 
         this._updateSelection(batteryEnabled, indicatorEnabled);
@@ -66,7 +66,7 @@ const  DeviceItem = GObject.registerClass({
 
         this._deleteButton = new Gtk.Button({
             icon_name: 'user-trash-symbolic',
-            tooltip_text: 'Delete device information: The button is available after unpairing device',
+            tooltip_text: _('Delete device information: The button is available after unpairing device'),
             css_classes: ['destructive-action'],
             valign: Gtk.Align.CENTER,
         });
