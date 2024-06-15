@@ -11,9 +11,9 @@ Encountering issues with this extension? Please follow the steps below for troub
 
 ### Battery Level Not Displaying for Bluetooth Device
 1. **Verify Display in Gnome Control Center**: Check if the battery level is visible in **Gnome Control Center (Settings) > Power** tab.
-2. **Enable Bluez Experimental Feature**: If not displayed, your Bluetooth device might require the Bluez experimental feature for battery reporting. [Enable Bluez experimental feature](./features#enable-experimental-bluez) and recheck in **Gnome Control Center**.
+2. **Enable Bluez Experimental Feature**: If not displayed, your Bluetooth device might require the Bluez experimental feature for battery reporting. [Enable Bluez experimental feature](index#enable-experimental-bluez) and recheck in **Gnome Control Center**.
 3. **Check Device Compatibility**: If the battery level still does not show, test the device with other OS/devices (e.g., iOS/Android). Consult the OEM website/documentation to confirm if your Bluetooth device supports battery level reporting.
-4. **Issue with Bluez**: If the device supports battery reporting but it's not visible in Gnome Control Center, conduct further tests and consider raising an issue on the [Bluez website](URL).
+4. **Issue with Bluez**: If the device supports battery reporting but it's not visible in Gnome Control Center, conduct further tests and consider raising an issue on the [Bluez website](https://github.com/bluez/bluez/issues).
 5. **Extension-Specific Issue**: If the battery level appears correctly in Gnome Control Center but not in this extension, please [Raise an issue on GitHub](https://github.com/maniacx/Bluetooth-Battery-Meter/issues){: .btn .btn-purple .v-align-bottom .fs-2}.
 
 **Gnome Control Center**

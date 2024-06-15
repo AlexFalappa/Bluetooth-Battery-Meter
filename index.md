@@ -47,6 +47,7 @@ permalink: /
 ---
 
 If bluetooth device is not reporting battery level, it could be that it needs Bluez Experimental.
+Note: Some bluetooth devices may also require to enable Bluez kernel experimental feature.
 <br>
 
 ### Check if experimental feature
@@ -56,12 +57,12 @@ bluetoothctl show | grep -q 'PowerState' && echo 'Experimental flag enabled' || 
 ```
 
 <br>
-### Check if experimental feature
+### Enable experimental feature
 There are several ways to enable experimental feature, the easiest way to enable is to edit system file
 ```
 /etc/bluetooth/main.conf
 ```
-Under `[General]` section add the following line or if the line exist change it from false to true
+Search for the line `#Experimental = false` and remove the `#` and change from `false` to `true`
 ```
 Experimental = true
 ```
@@ -73,6 +74,17 @@ Once done check if device displays battery level under `Power` in `Gnome Control
 <br>
 <img src="./assets/images/features/power.png" width="100%">
 
+### Enable kernel experimental feature
+Users have reported that some devices will not report battery level until the **kernel experimatal** flag is enabled. If the battery level is still not reported. Try to enable bluez kernel experimental feaures
+Edit system file
+```
+/etc/bluetooth/main.conf
+```
+Search for the line `#KernelExperimental = false` and remove the `#` and change from `false` to `true`
+```
+KernelExperimental = true
+```
+ Restart the system.
 
 # Features
 
@@ -169,6 +181,30 @@ When both, Battery Percentage Text and Battery Level Icon are enabled, Setting t
 **Bluetooth Quick Settings Icon Before Text Enabled**
 <br>
 <img src="./assets/images/features/qc-battery-icon-text.png" width="50%">
+<br>
+<br>
 
+## **Bluetooth Indicator Show Percentage in text**
+Display battery percentage in text next to the indicator icon. 
+<br>
+<img src="./assets/images/features/settings-indicator-text.png" width="100%">
+<br>
+<br>
+<img src="./assets/images/features/qc-indicator-text.png" width="40%">
+<br>
+<br>
 
+## **Per Device Settings**
+<img src="./assets/images/features/settings-device.png" width="100%">
+* Users have the option to disable the display of battery levels in the quick settings and the indicator. This is particularly useful if an unsupported Bluetooth device (not yet supported by BlueZ) reports incorrect battery levels, allowing users to hide it from the quick settings and the indicator.
+* Additionally, users can opt to disable the indicator if they prefer not to show a Bluetooth device's indicator icon in the system tray.
+
+### Settings Description
+* **Enable All**: Display the battery level in both quick settings and the indicator.
+* **Disable All**: Hide the battery level in both quick settings and the indicator.
+* **Hide Indicator**: Do not display an indicator for the Bluetooth device, but show the battery information in quick settings.
+
+When a Bluetooth device capable of reporting its battery level is detected, it is automatically added to the preferences, and the setting is saved in GSettings. This ensures that the user does not need to configure per-device settings again when the device reconnects.
+
+A Bluetooth device can only be deleted from the device preference page when it is unpaired. If the user no longer wishes to connect the Bluetooth device in the future, it can be removed from this list.
 

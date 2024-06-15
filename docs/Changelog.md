@@ -8,23 +8,37 @@ permalink: /changelogs
 # Changelogs
 
 {: .important-title }
-> GN-45_Version 12 &emsp;&emsp; Feb 28, 2024
-> * translation: Update Traditional Chinese translation. Credits: PeterDaveHello
-
+> GN-45_Version 16 &emsp;&emsp; Jun 16, 2024
+> * Added option to show pexcentage in text next to indicator.
+> * Added option to show hide battery information on quicksettings and indicators.
+> * Add Phone support. Shows battery level for iphones and android phone.
+> * translation: Update Swedish translation. Credits: jnsson@crowdin
+> * translation: Update Hungarian translation. Credits: ViBE-HU
 
 {: .note-title }
-> GN-44_Version 11 &emsp;&emsp; Feb 28, 2024 
-> * translation: Update Traditional Chinese translation. Credits: PeterDaveHello
+> GN-44_Version 15 &emsp;&emsp; Jun 16, 2024
+> * Added option to show pexcentage in text next to indicator.
+> * Added option to show hide battery information on quicksettings and indicators.
+> * Add Phone support. Shows battery level for iphones and android phone.
+> * translation: Update Swedish translation. Credits: jnsson@crowdin
+> * translation: Update Hungarian translation. Credits: ViBE-HU
 
+{: .important-title }
+> GN-45_Version 14 &emsp;&emsp; Feb 15, 2024
+> * translation: Update Traditional Chinese(zh_TW) translation. Credits: PeterDaveHello
+
+{: .note-title }
+> GN-44_Version 13 &emsp;&emsp; Feb 15, 2024 
+> * translation: Update Traditional Chinese(zh_TW) translation. Credits: PeterDaveHello
 
 {: .important-title }
 > GN-45_Version 12 &emsp;&emsp; Feb 15, 2024
-> * translation: Update Brazilian (Portuguese) translation. Credits: tiagoFlach
+> * translation: Update pt_BR translation. Credits: tiagoFlach
 
 
 {: .note-title }
 > GN-44_Version 11 &emsp;&emsp; Feb 15, 2024 
-> * translation: Update Brazilian (Portuguese) translation. Credits: tiagoFlach
+> * translation: Update pt_BR translation. Credits: tiagoFlach
 
 
 {: .important-title }
