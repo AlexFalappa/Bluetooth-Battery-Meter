@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:51-0700\n"
+"POT-Creation-Date: 2024-06-14 17:59-0700\n"
 "PO-Revision-Date: 2023-10-18 19:47+0200\n"
 "Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
@@ -79,6 +79,23 @@ msgstr ""
 
 #: preferences/device.js:36
 msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:41
+msgid ""
+"Show all:\n"
+"Shows Indicator icon and battery information in QuickSetting.\n"
+"\n"
+"Hide all:\n"
+"Hide battery information and Indicator icon in QuickSetting.\n"
+"\n"
+"Hide indicator:\n"
+"Hide only Indicator icon, Show battery information in QuickSetting."
+msgstr ""
+
+#: preferences/device.js:67
+msgid ""
+"Delete device information: The button is available after unpairing device"
 msgstr ""
 
 #: preferences/device.js:108
