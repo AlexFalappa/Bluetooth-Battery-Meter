@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 20:07-0800\n"
+"POT-Creation-Date: 2024-06-14 17:54-0700\n"
 "PO-Revision-Date: 2024-01-11 16:33+0000\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: RU\n"
@@ -34,32 +34,32 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: lib/bluetoothPopupMenu.js:78
+#: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
 msgstr "Отключить"
 
-#: lib/bluetoothPopupMenu.js:78
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "Подключить"
 
-#: lib/bluetoothToggle42.js:157 lib/bluetoothToggle.js:229
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
 msgid "No available or connected devices"
 msgstr "Нет доступных или подключенных устройств"
 
-#: lib/bluetoothToggle42.js:158 lib/bluetoothToggle.js:230
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Включите Bluetooth для подключения к устройствам"
 
-#: lib/bluetoothToggle.js:86 lib/bluetoothToggle.js:88
-#: lib/bluetoothToggle.js:96
+#: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
+#: lib/bluetoothToggle.js:108
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:117
+#: lib/bluetoothToggle.js:131
 msgid "Bluetooth Settings"
 msgstr "Настройки Bluetooth"
 
-#: lib/bluetoothToggle.js:323
+#: lib/bluetoothToggle.js:434
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -83,6 +83,26 @@ msgid ""
 "href=\"%s\">%s</a> for details."
 msgstr ""
 "Это приложение не имеет никакой гарантии. Подробнее <a href=“%s”>%s</a>."
+
+#: preferences/device.js:36
+msgid "Show all"
+msgstr ""
+
+#: preferences/device.js:37
+msgid "Hide all"
+msgstr ""
+
+#: preferences/device.js:38
+msgid "Hide indicator"
+msgstr ""
+
+#: preferences/device.js:110
+msgid "(Removed)"
+msgstr ""
+
+#: preferences/device.js:111
+msgid "(Paired)"
+msgstr ""
 
 #: ui/about.ui:5
 msgid "About"
@@ -116,6 +136,22 @@ msgstr ""
 msgid "Online Tutorials"
 msgstr "Онлайн уроки"
 
+#: ui/device.ui:5
+msgid "Device"
+msgstr ""
+
+#: ui/device.ui:9
+msgid "Show / hide battery information per device"
+msgstr ""
+
+#: ui/device.ui:10
+msgid "Note: General Setting overrides per device settings"
+msgstr ""
+
+#: ui/device.ui:13
+msgid "No battery reporting capable device paired!"
+msgstr ""
+
 #: ui/general.ui:5
 msgid "General"
 msgstr "Общие"
@@ -132,43 +168,51 @@ msgstr "Отображать уровнь заряда Bluetooth устройс�
 msgid "Show icon in system tray with device battery level"
 msgstr "Покажет уровень заряда батареи устройства в системном трее"
 
-#: ui/general.ui:26
+#: ui/general.ui:24
+msgid "Show percentage in text"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Add text in percentage next to battery indicators icon"
+msgstr ""
+
+#: ui/general.ui:39
 msgid "Quick Menu Settings"
 msgstr "Настройки быстрого меню"
 
-#: ui/general.ui:29
+#: ui/general.ui:42
 msgid "Show Bluetooth device battery level icon"
 msgstr "Показать значок батареи Bluetooth устройств"
 
-#: ui/general.ui:30
+#: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
 msgstr ""
 "Отображение во всплывающем меню значка, показывающего уровень заряда батареи "
 "устройства Bluetooth"
 
-#: ui/general.ui:41
+#: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
 msgstr "Показать процент заряда батареи Bluetooth устройств"
 
-#: ui/general.ui:42
+#: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
 msgstr ""
 "Отображение процентного уровня заряда батареи устройства Bluetooth в "
 "текстовом виде"
 
-#: ui/general.ui:53
+#: ui/general.ui:66
 msgid "Display battery level icon before text"
 msgstr "Показать иконку заряда батареи перед процентами"
 
-#: ui/general.ui:54
+#: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "Поменяет местами отображение иконки батареи и проценты"
 
-#: ui/general.ui:67
+#: ui/general.ui:80
 msgid "Note!"
 msgstr "Внимание!"
 
-#: ui/general.ui:70
+#: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
