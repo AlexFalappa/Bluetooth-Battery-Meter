@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:58-0700\n"
+"POT-Creation-Date: 2024-07-05 20:05-0700\n"
 "PO-Revision-Date: 2023-08-31 02:08+0200\n"
 "Last-Translator: Petr Balvín <petrbalvin@petalmail.com, petrbalvin@yandex."
 "com>\n"
@@ -27,32 +27,32 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 "X-Project-Style: gnome\n"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
 msgstr "Odpojit"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Connect"
 msgstr "Připojit"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
 msgid "No available or connected devices"
 msgstr "Žádné dostupné nebo připojené zařízení"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Pro připojení k zařízení zapněte Bluetooth"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:108
+#: lib/bluetoothToggle.js:121
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:131
+#: lib/bluetoothToggle.js:144
 msgid "Bluetooth Settings"
 msgstr "Nastavení Bluetooth"
 
-#: lib/bluetoothToggle.js:434
+#: lib/bluetoothToggle.js:456
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

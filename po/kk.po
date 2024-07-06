@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:58-0700\n"
+"POT-Creation-Date: 2024-07-05 20:05-0700\n"
 "PO-Revision-Date: 2023-09-03 09:19+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -18,32 +18,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
 msgstr "Байланысты үзу"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Connect"
 msgstr "Байланысу"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
 msgid "No available or connected devices"
 msgstr "Қолжетімді немесе байланысқан құрылғылар жоқ"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Құрылғыларға байланысу үшін Bluetooth іске қосыңыз"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:108
+#: lib/bluetoothToggle.js:121
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:131
+#: lib/bluetoothToggle.js:144
 msgid "Bluetooth Settings"
 msgstr "Bluetooth баптаулары"
 
-#: lib/bluetoothToggle.js:434
+#: lib/bluetoothToggle.js:456
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

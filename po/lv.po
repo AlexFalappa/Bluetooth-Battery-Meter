@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:58-0700\n"
+"POT-Creation-Date: 2024-07-05 20:05-0700\n"
 "PO-Revision-Date: 2023-09-16 09:17+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -23,32 +23,32 @@ msgstr ""
 "2);\n"
 "X-Generator: Lokalize 22.12.3\n"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
 msgstr "Atvienot"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Connect"
 msgstr "Savienot"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
 msgid "No available or connected devices"
 msgstr "Nav pieejamu vai savienotu ierīču"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Ieslēgt Bluetooth, lai savienotos ar ierīcēm"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:108
+#: lib/bluetoothToggle.js:121
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:131
+#: lib/bluetoothToggle.js:144
 msgid "Bluetooth Settings"
 msgstr "Bluetooth iestatījumi"
 
-#: lib/bluetoothToggle.js:434
+#: lib/bluetoothToggle.js:456
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

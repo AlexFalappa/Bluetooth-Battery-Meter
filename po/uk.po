@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:58-0700\n"
+"POT-Creation-Date: 2024-07-05 20:05-0700\n"
 "PO-Revision-Date: 2023-08-26 20:48+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <none>\n"
@@ -31,32 +31,32 @@ msgstr ""
 "X-DL-Domain: po\n"
 "X-DL-State: Translating\n"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
 msgstr "Від'єднатися"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Connect"
 msgstr "З'єднатись"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
 msgid "No available or connected devices"
 msgstr "Немає доступних або з'єднаних пристроїв"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Увімкнути Bluetooth для встановлення з'єднання з пристроями"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:108
+#: lib/bluetoothToggle.js:121
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:131
+#: lib/bluetoothToggle.js:144
 msgid "Bluetooth Settings"
 msgstr "Параметри Bluetooth"
 
-#: lib/bluetoothToggle.js:434
+#: lib/bluetoothToggle.js:456
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

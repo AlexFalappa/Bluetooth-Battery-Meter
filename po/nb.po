@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:58-0700\n"
+"POT-Creation-Date: 2024-07-05 20:05-0700\n"
 "PO-Revision-Date: 2023-10-15 21:11+0200\n"
 "Last-Translator: Brage <bragefuglseth@gnome.org>\n"
 "Language-Team: \n"
@@ -18,32 +18,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4\n"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
 msgstr "Koble fra"
 
-#: lib/bluetoothPopupMenu.js:72
+#: lib/bluetoothPopupMenu.js:79
 msgid "Connect"
 msgstr "Koble til"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:247
+#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
 msgid "No available or connected devices"
 msgstr "Ingen tilkoblede eller synlige enheter"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:248
+#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Slå på Bluetooth for å koble til enheter"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:108
+#: lib/bluetoothToggle.js:121
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:131
+#: lib/bluetoothToggle.js:144
 msgid "Bluetooth Settings"
 msgstr "Bluetooth-innstillinger"
 
-#: lib/bluetoothToggle.js:434
+#: lib/bluetoothToggle.js:456
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
