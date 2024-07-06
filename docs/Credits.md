@@ -113,5 +113,10 @@ permalink: /credits
 > * Toxblh
 > * txelu
 > * PetrBalvin
-
+> * Bitals
+> * deepgai
+> * GdH
+> * jnsson
+> * PeterDaveHello
+> * Bohdan Shkliarenko
 

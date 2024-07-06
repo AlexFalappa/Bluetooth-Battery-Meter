@@ -8,6 +8,22 @@ permalink: /changelogs
 # Changelogs
 
 {: .important-title }
+> GN-45_Version 16 &emsp;&emsp; Jul 05, 2024
+> * Custom theme support
+> * Bug fix: bluetoothIndicators: Avoid displaying battery percentage text 0% while disconnecting
+> * Bug fix: bluetoothIndicators: Do not create invisible indicators if device is not connected.
+> * translation: Update Russian translation. Credits: Bitals@crowdin
+> * translation: Update Italian translation. Credits: albanobattistella
+
+{: .note-title }
+> GN-44_Version 15 &emsp;&emsp; Jul 05, 2024
+> * Custom theme support
+> * Bug fix: bluetoothIndicators: Avoid displaying battery percentage text 0% while disconnecting
+> * Bug fix: bluetoothIndicators: Do not create invisible indicators if device is not connected.
+> * translation: Update Russian translation. Credits: Bitals@crowdin
+> * translation: Update Italian translation. Credits: albanobattistella
+
+{: .important-title }
 > GN-45_Version 16 &emsp;&emsp; Jun 16, 2024
 > * Added option to show pexcentage in text next to indicator.
 > * Added option to show hide battery information on quicksettings and indicators.
