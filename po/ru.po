@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
+"POT-Creation-Date: 2024-07-05 20:35-0700\n"
 "PO-Revision-Date: 2024-01-11 16:33+0000\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: RU\n"
@@ -74,7 +74,7 @@ msgstr "GNU General Public License, версии 3 или позже"
 #: preferences/about.js:49
 #, javascript-format
 msgid "© %s %s"
-msgstr ""
+msgstr "©️ %s %s"
 
 #: preferences/about.js:50
 #, javascript-format
@@ -86,15 +86,15 @@ msgstr ""
 
 #: preferences/device.js:36
 msgid "Show all"
-msgstr ""
+msgstr "Показать все"
 
 #: preferences/device.js:37
 msgid "Hide all"
-msgstr ""
+msgstr "Скрыть все"
 
 #: preferences/device.js:38
 msgid "Hide indicator"
-msgstr ""
+msgstr "Скрыть индикатор"
 
 #: preferences/device.js:43
 msgid ""
@@ -107,19 +107,28 @@ msgid ""
 "Hide indicator:\n"
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
+"Показать все:\n"
+"Показывает значок в трее и информацию о батарее в Быстрых Настройках.\n"
+"\n"
+"Скрыть все:\n"
+"Скрывает значок в трее и информацию о батарее в Быстрых Настройках.\n"
+"\n"
+"Скрыть значок:\n"
+"Скрывает значок в трее, показывает информацию и батарее в Быстрых Настройках."
 
 #: preferences/device.js:69
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
+"Удалить устройство: кнопка доступна после разрыва сопряжения с устройством"
 
 #: preferences/device.js:110
 msgid "(Removed)"
-msgstr ""
+msgstr "(Удалено)"
 
 #: preferences/device.js:111
 msgid "(Paired)"
-msgstr ""
+msgstr "(Сопряжено)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -147,7 +156,7 @@ msgstr "Правовой статус"
 
 #: ui/about.ui:217
 msgid "Crowdin"
-msgstr ""
+msgstr "Crowdin"
 
 #: ui/about.ui:229
 msgid "Online Tutorials"
@@ -155,19 +164,20 @@ msgstr "Онлайн уроки"
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "Устройство"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "Показать / скрыть информацию о батарее устройства"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
 msgstr ""
+"Примечание: индивидуальные настройки устройства имеют приоритет перед Общими"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr ""
+msgstr "Не сопряжено ни одного устройства, передающего информацию о батарее!"
 
 #: ui/general.ui:5
 msgid "General"
@@ -187,11 +197,11 @@ msgstr "Покажет уровень заряда батареи устройс
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "Печатать процент заряда"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr ""
+msgstr "Добавить процент заряда рядом со значком батареи"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
