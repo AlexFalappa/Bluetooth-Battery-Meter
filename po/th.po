@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
 "PO-Revision-Date: 2024-01-07 07:08+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -19,16 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.1\n"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 #, fuzzy
 msgid "Disconnect"
 msgstr "เชื่อมต่อใหม่"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
-#: lib/bluetoothToggle.js:263
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

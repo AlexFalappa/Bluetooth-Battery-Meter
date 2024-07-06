@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
 "PO-Revision-Date: 2018-10-26 13:50+0530\n"
 "Last-Translator: Ranjith Siji <ranjith.sajeev@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -23,15 +23,15 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Project-Style: gnome\n"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
 msgstr ""
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "കണക്ട് ചെയ്യുക"
 
-#: lib/bluetoothToggle.js:263
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

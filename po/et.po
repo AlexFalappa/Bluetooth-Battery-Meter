@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell MASTER\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
 "PO-Revision-Date: 2019-03-10 18:49+0200\n"
 "Last-Translator: Mart Raudsepp <leio@gentoo.org>\n"
 "Language-Team: Estonian <>\n"
@@ -24,15 +24,15 @@ msgstr ""
 "X-Generator: Poedit 2.2\n"
 "X-DamnedLies-Scope: partial\n"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
 msgstr ""
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "Ühendu"
 
-#: lib/bluetoothToggle.js:263
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
 "PO-Revision-Date: 2023-09-01 08:41+0200\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -28,15 +28,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
 msgstr "Afbryd"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "Forbind"
 
-#: lib/bluetoothToggle.js:263
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"

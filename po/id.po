@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
 "PO-Revision-Date: 2023-08-30 13:50+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
@@ -24,15 +24,15 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
 msgstr "Putuskan"
 
-#: lib/bluetoothPopupMenu.js:70
+#: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
 msgstr "Sambung"
 
-#: lib/bluetoothToggle.js:263
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
