@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
-"PO-Revision-Date: 2024-01-11 18:47+0100\n"
+"POT-Creation-Date: 2024-07-05 20:45-0700\n"
+"PO-Revision-Date: 2024-08-28 15:34+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: \n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: lib/bluetoothPopupMenu.js:79
 msgid "Disconnect"
@@ -63,23 +63,23 @@ msgstr "© %s %s"
 #: preferences/about.js:50
 #, javascript-format
 msgid ""
-"This application comes with absolutely no warranty. See the <a "
-"href=\"%s\">%s</a> for details."
+"This application comes with absolutely no warranty. See the <a href=\"%s\">"
+"%s</a> for details."
 msgstr ""
 "Aquesta aplicacion es provesida sens cap de garantida. Consultatz la <a "
 "href=\"%s\">%s</a> per mai de detalhs."
 
 #: preferences/device.js:36
 msgid "Show all"
-msgstr ""
+msgstr "Tot afichar"
 
 #: preferences/device.js:37
 msgid "Hide all"
-msgstr ""
+msgstr "Tot amagar"
 
 #: preferences/device.js:38
 msgid "Hide indicator"
-msgstr ""
+msgstr "Amagar l’indicator"
 
 #: preferences/device.js:43
 msgid ""
@@ -92,19 +92,32 @@ msgid ""
 "Hide indicator:\n"
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
+"Tot afichar :\n"
+"Afichar l'icòna de l'indicator e las informacions de la batariá dins "
+"QuickSetting.\n"
+"\n"
+"Tot amagar :\n"
+"Amagar las informacions de la batariá e l'icòna d'indicator dins "
+"QuickSetting.\n"
+"\n"
+"Amagar l’indicator:\n"
+"Amagar sonque l'icòna de l’indicator, afichar las informacions de la "
+"batariá dins QuickSetting."
 
 #: preferences/device.js:69
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
+"Informacions de supression de periferic : lo boton es disponible après aver "
+"copat l’associacion del periferic"
 
 #: preferences/device.js:110
 msgid "(Removed)"
-msgstr ""
+msgstr "(Levat)"
 
 #: preferences/device.js:111
 msgid "(Paired)"
-msgstr ""
+msgstr "(Apariat)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -140,19 +153,20 @@ msgstr "Tutorials en linha"
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "Periferic"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "Afichar / Amagar las informacions de batariá per periferic"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
 msgstr ""
+"Nòta : los paramètres generals subrecargan los paramètres per periferic"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr ""
+msgstr "Cap de periferic amb senhalament d’estat de batariá apariat !"
 
 #: ui/general.ui:5
 msgid "General"
@@ -174,11 +188,13 @@ msgstr ""
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "Afichar lo percentatge en tèxte"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
 msgstr ""
+"Apondre lo percentatge en tèxte a costat de l’icòna de l’indicator de "
+"batariá"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
