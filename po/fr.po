@@ -71,15 +71,15 @@ msgstr ""
 
 #: preferences/device.js:34
 msgid "Show all"
-msgstr ""
+msgstr "Tout afficher"
 
 #: preferences/device.js:35
 msgid "Hide all"
-msgstr ""
+msgstr "Tout masquer"
 
 #: preferences/device.js:36
 msgid "Hide indicator"
-msgstr ""
+msgstr "Masquer l'indicateur"
 
 #: preferences/device.js:41
 msgid ""
@@ -92,19 +92,28 @@ msgid ""
 "Hide indicator:\n"
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
+"Tout afficher :\n"
+"Affiche l'icône de l'indicateur et les informations de batterie dans les Paramètres rapides.\n"
+"\n"
+"Tout masquer :\n"
+"Masque les informations de batterie et l'icône de l'indicateur dans les Paramètres rapides.\n"
+"\n"
+"Masquer l'indicateur :\n"
+"Masque uniquement l'icône de l'indicateur, affiche les informations de batterie dans les Paramètres rapides."
 
 #: preferences/device.js:67
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
+"Supprimer les informations de l'appareil : Le bouton est disponible après avoir dissocié l'appareil"
 
 #: preferences/device.js:108
 msgid "(Removed)"
-msgstr ""
+msgstr "(Supprimé)"
 
 #: preferences/device.js:109
 msgid "(Paired)"
-msgstr ""
+msgstr "(Associé)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -140,19 +149,19 @@ msgstr "Tutoriels en ligne"
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "Appareil"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "Afficher / masquer les informations de batterie par appareil"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
-msgstr ""
+msgstr "Note : Les paramètres généraux remplacent les paramètres par appareil"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr ""
+msgstr "Aucun appareil capable de signaler l'état de la batterie n'est associé !"
 
 #: ui/general.ui:5
 msgid "General"
@@ -160,58 +169,61 @@ msgstr "Général"
 
 #: ui/general.ui:9
 msgid "Indicator Settings"
-msgstr ""
+msgstr "Paramètres de l'indicateur"
 
 #: ui/general.ui:12
 msgid "Enable Bluetooth device battery indicators"
-msgstr ""
+msgstr "Activer les indicateurs de batterie des appareils Bluetooth"
 
 #: ui/general.ui:13
 msgid "Show icon in system tray with device battery level"
-msgstr ""
+msgstr "Afficher l'icône dans la barre système avec le niveau de batterie de l'appareil"
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "Afficher le pourcentage en texte"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr ""
+msgstr "Ajouter le texte en pourcentage à côté de l'icône des indicateurs de batterie"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
-msgstr ""
+msgstr "Paramètres du menu rapide"
 
 #: ui/general.ui:42
 msgid "Show Bluetooth device battery level icon"
-msgstr ""
+msgstr "Afficher l'icône du niveau de batterie de l'appareil Bluetooth"
 
 #: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
-msgstr ""
+msgstr "Affiche une icône dans le menu contextuel indiquant le niveau de batterie de l'appareil Bluetooth"
 
 #: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
-msgstr ""
+msgstr "Afficher le pourcentage de batterie de l'appareil Bluetooth"
 
 #: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
-msgstr ""
+msgstr "Affiche le pourcentage du niveau de batterie de l'appareil Bluetooth en texte"
 
 #: ui/general.ui:66
 msgid "Display battery level icon before text"
-msgstr ""
+msgstr "Afficher l'icône du niveau de batterie avant le texte"
 
 #: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
-msgstr ""
+msgstr "Inverse la position de l'icône du niveau de batterie et du texte de pourcentage"
 
 #: ui/general.ui:80
 msgid "Note!"
-msgstr ""
+msgstr "Note !"
 
 #: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
 msgstr ""
+"Certains appareils Bluetooth ne signalent pas le niveau de batterie tant que les "
+"fonctionnalités expérimentales de Bluez ne sont pas activées dans le système. "
+"Consultez le fichier Readme pour plus de détails."
