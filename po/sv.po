@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluetooth-battery-meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
-"PO-Revision-Date: 2024-06-14 22:28\n"
+"POT-Creation-Date: 2024-09-14 16:50-0700\n"
+"PO-Revision-Date: 2024-09-14 22:49\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -25,24 +25,24 @@ msgstr "Koppla från"
 msgid "Connect"
 msgstr "Anslut"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
+#: lib/bluetoothToggle42.js:170 lib/bluetoothToggle.js:274
 msgid "No available or connected devices"
 msgstr ""
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
+#: lib/bluetoothToggle42.js:171 lib/bluetoothToggle.js:275
 msgid "Turn on Bluetooth to connect to devices"
 msgstr ""
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:121
+#: lib/bluetoothToggle.js:122
 msgid "Bluetooth"
 msgstr ""
 
-#: lib/bluetoothToggle.js:144
+#: lib/bluetoothToggle.js:147
 msgid "Bluetooth Settings"
 msgstr ""
 
-#: lib/bluetoothToggle.js:456
+#: lib/bluetoothToggle.js:547
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -69,15 +69,15 @@ msgstr ""
 
 #: preferences/device.js:36
 msgid "Show all"
-msgstr ""
+msgstr "Visa alla"
 
 #: preferences/device.js:37
 msgid "Hide all"
-msgstr ""
+msgstr "Dölj alla"
 
 #: preferences/device.js:38
 msgid "Hide indicator"
-msgstr ""
+msgstr "Dölj indikator"
 
 #: preferences/device.js:43
 msgid ""
@@ -98,11 +98,11 @@ msgstr ""
 
 #: preferences/device.js:110
 msgid "(Removed)"
-msgstr ""
+msgstr "(Borttagen)"
 
 #: preferences/device.js:111
 msgid "(Paired)"
-msgstr ""
+msgstr "(Kopplad)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -138,11 +138,11 @@ msgstr ""
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "Enhet"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "Visa / dölj batteriinformation per enhet"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr ""
+msgstr "Ingen batterirapporteringskapabel enhet ihopkopplad!"
 
 #: ui/general.ui:5
 msgid "General"
@@ -170,11 +170,11 @@ msgstr "Visa ikonen i systemfältet med enhetens batterinivå"
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "Visa procent i text"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr ""
+msgstr "Lägg till text i procent bredvid batteriindikator-ikonen"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
@@ -204,11 +204,21 @@ msgstr "Visa ikonen för batterinivå före text"
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "Växlar positionen av batteriikonen och procenttexten"
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr "Observera!"
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
