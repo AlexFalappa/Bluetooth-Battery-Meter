@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:45-0700\n"
+"POT-Creation-Date: 2024-09-14 15:58-0700\n"
 "PO-Revision-Date: 2023-09-03 09:19+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -26,7 +26,7 @@ msgstr "Байланысты үзу"
 msgid "Connect"
 msgstr "Байланысу"
 
-#: lib/bluetoothToggle.js:288
+#: lib/bluetoothToggle.js:393
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -187,11 +187,21 @@ msgstr ""
 msgid "Swaps position of battery level icon and percentage text"
 msgstr ""
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr ""
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
