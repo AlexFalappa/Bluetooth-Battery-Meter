@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
+"POT-Creation-Date: 2024-09-14 16:50-0700\n"
 "PO-Revision-Date: 2023-08-26 20:48+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <none>\n"
@@ -39,24 +39,24 @@ msgstr "Від'єднатися"
 msgid "Connect"
 msgstr "З'єднатись"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
+#: lib/bluetoothToggle42.js:170 lib/bluetoothToggle.js:274
 msgid "No available or connected devices"
 msgstr "Немає доступних або з'єднаних пристроїв"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
+#: lib/bluetoothToggle42.js:171 lib/bluetoothToggle.js:275
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Увімкнути Bluetooth для встановлення з'єднання з пристроями"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:121
+#: lib/bluetoothToggle.js:122
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:144
+#: lib/bluetoothToggle.js:147
 msgid "Bluetooth Settings"
 msgstr "Параметри Bluetooth"
 
-#: lib/bluetoothToggle.js:456
+#: lib/bluetoothToggle.js:547
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -223,11 +223,21 @@ msgstr "Відображувати піктограму заряду акуму�
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "Міняє положення піктограми заряду батареї та відсотків"
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr "Примітка!"
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."

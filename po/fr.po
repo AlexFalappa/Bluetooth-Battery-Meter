@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
+"POT-Creation-Date: 2024-09-14 16:50-0700\n"
 "PO-Revision-Date: 2023-09-07 21:39+0200\n"
 "Last-Translator: Irénée Thirion <irenee.thirion@e.email>\n"
 "Language-Team: French - France <gnomefr@traduc.org>\n"
@@ -44,24 +44,24 @@ msgstr "Déconnecter"
 msgid "Connect"
 msgstr "Se connecter"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
+#: lib/bluetoothToggle42.js:170 lib/bluetoothToggle.js:274
 msgid "No available or connected devices"
 msgstr "Aucun périphérique disponible ou connecté"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
+#: lib/bluetoothToggle42.js:171 lib/bluetoothToggle.js:275
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Activer le Bluetooth pour se connecter aux périphériques"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:121
+#: lib/bluetoothToggle.js:122
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:144
+#: lib/bluetoothToggle.js:147
 msgid "Bluetooth Settings"
 msgstr "Paramètres Bluetooth"
 
-#: lib/bluetoothToggle.js:456
+#: lib/bluetoothToggle.js:547
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -110,19 +110,23 @@ msgid ""
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
 "Tout afficher :\n"
-"Affiche l'icône de l'indicateur et les informations de batterie dans les Paramètres rapides.\n"
+"Affiche l'icône de l'indicateur et les informations de batterie dans les "
+"Paramètres rapides.\n"
 "\n"
 "Tout masquer :\n"
-"Masque les informations de batterie et l'icône de l'indicateur dans les Paramètres rapides.\n"
+"Masque les informations de batterie et l'icône de l'indicateur dans les "
+"Paramètres rapides.\n"
 "\n"
 "Masquer l'indicateur :\n"
-"Masque uniquement l'icône de l'indicateur, affiche les informations de batterie dans les Paramètres rapides."
+"Masque uniquement l'icône de l'indicateur, affiche les informations de "
+"batterie dans les Paramètres rapides."
 
 #: preferences/device.js:69
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
-"Supprimer les informations de l'appareil : Le bouton est disponible après avoir dissocié l'appareil"
+"Supprimer les informations de l'appareil : Le bouton est disponible après "
+"avoir dissocié l'appareil"
 
 #: preferences/device.js:110
 msgid "(Removed)"
@@ -178,7 +182,8 @@ msgstr "Note : Les paramètres généraux remplacent les paramètres par apparei
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr "Aucun appareil capable de signaler l'état de la batterie n'est associé !"
+msgstr ""
+"Aucun appareil capable de signaler l'état de la batterie n'est associé !"
 
 #: ui/general.ui:5
 msgid "General"
@@ -194,7 +199,9 @@ msgstr "Activer les indicateurs de batterie des appareils Bluetooth"
 
 #: ui/general.ui:13
 msgid "Show icon in system tray with device battery level"
-msgstr "Afficher l'icône dans la barre système avec le niveau de batterie de l'appareil"
+msgstr ""
+"Afficher l'icône dans la barre système avec le niveau de batterie de "
+"l'appareil"
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
@@ -202,7 +209,8 @@ msgstr "Afficher le pourcentage en texte"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr "Ajouter le texte en pourcentage à côté de l'icône des indicateurs de batterie"
+msgstr ""
+"Ajouter le texte en pourcentage à côté de l'icône des indicateurs de batterie"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
@@ -214,7 +222,9 @@ msgstr "Afficher l'icône du niveau de batterie de l'appareil Bluetooth"
 
 #: ui/general.ui:43
 msgid "Displays icon in popup menu showing Bluetooth device battery level"
-msgstr "Affiche une icône dans le menu contextuel indiquant le niveau de batterie de l'appareil Bluetooth"
+msgstr ""
+"Affiche une icône dans le menu contextuel indiquant le niveau de batterie de "
+"l'appareil Bluetooth"
 
 #: ui/general.ui:54
 msgid "Show Bluetooth device battery percentage"
@@ -222,7 +232,8 @@ msgstr "Afficher le pourcentage de batterie de l'appareil Bluetooth"
 
 #: ui/general.ui:55
 msgid "Displays Bluetooth device battery level percentage in text"
-msgstr "Affiche le pourcentage du niveau de batterie de l'appareil Bluetooth en texte"
+msgstr ""
+"Affiche le pourcentage du niveau de batterie de l'appareil Bluetooth en texte"
 
 #: ui/general.ui:66
 msgid "Display battery level icon before text"
@@ -230,17 +241,29 @@ msgstr "Afficher l'icône du niveau de batterie avant le texte"
 
 #: ui/general.ui:67
 msgid "Swaps position of battery level icon and percentage text"
-msgstr "Inverse la position de l'icône du niveau de batterie et du texte de pourcentage"
+msgstr ""
+"Inverse la position de l'icône du niveau de batterie et du texte de "
+"pourcentage"
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr "Note !"
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
 msgstr ""
-"Certains appareils Bluetooth ne signalent pas le niveau de batterie tant que les "
-"fonctionnalités expérimentales de Bluez ne sont pas activées dans le système. "
-"Consultez le fichier Readme pour plus de détails."
+"Certains appareils Bluetooth ne signalent pas le niveau de batterie tant que "
+"les fonctionnalités expérimentales de Bluez ne sont pas activées dans le "
+"système. Consultez le fichier Readme pour plus de détails."

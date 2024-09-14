@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 17:59-0700\n"
+"POT-Creation-Date: 2024-09-14 16:50-0700\n"
 "PO-Revision-Date: 2024-06-25 20:07+0200\n"
 "Last-Translator:  Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -25,24 +25,24 @@ msgstr "Disconnetti"
 msgid "Connect"
 msgstr "Connetti"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
+#: lib/bluetoothToggle42.js:170 lib/bluetoothToggle.js:274
 msgid "No available or connected devices"
 msgstr "Nessun dispositivo disponibile o connesso"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
+#: lib/bluetoothToggle42.js:171 lib/bluetoothToggle.js:275
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Attivare il Bluetooth per connettersi ai dispositivi"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:121
+#: lib/bluetoothToggle.js:122
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:144
+#: lib/bluetoothToggle.js:147
 msgid "Bluetooth Settings"
 msgstr "Impostazioni Bluetooth"
 
-#: lib/bluetoothToggle.js:456
+#: lib/bluetoothToggle.js:547
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -91,19 +91,23 @@ msgid ""
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
 "Mostra tutto:\n"
-"Mostra l'icona dell'indicatore e le informazioni sulla batteria in QuickSetting.\n"
+"Mostra l'icona dell'indicatore e le informazioni sulla batteria in "
+"QuickSetting.\n"
 "\n"
 "Nascondi tutto:\n"
-"Nascondi le informazioni sulla batteria e l'icona dell'indicatore in QuickSetting.\n"
+"Nascondi le informazioni sulla batteria e l'icona dell'indicatore in "
+"QuickSetting.\n"
 "\n"
 "Nascondi indicatore:\n"
-"Nascondi solo l'icona dell'indicatore, mostra le informazioni sulla batteria in QuickSetting."
+"Nascondi solo l'icona dell'indicatore, mostra le informazioni sulla batteria "
+"in QuickSetting."
 
 #: preferences/device.js:69
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
-"Elimina informazioni sul dispositivo: il pulsante è disponibile dopo aver disaccoppiato il dispositivo"
+"Elimina informazioni sul dispositivo: il pulsante è disponibile dopo aver "
+"disaccoppiato il dispositivo"
 
 #: preferences/device.js:110
 msgid "(Removed)"
@@ -155,11 +159,14 @@ msgstr "Mostra / nascondi le informazioni sulla batteria per dispositivo"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
-msgstr "Nota: le impostazioni generali prevalgono sulle impostazioni del dispositivo"
+msgstr ""
+"Nota: le impostazioni generali prevalgono sulle impostazioni del dispositivo"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr "Nessun dispositivo accoppiato in grado di segnalare la capacità della batteria!"
+msgstr ""
+"Nessun dispositivo accoppiato in grado di segnalare la capacità della "
+"batteria!"
 
 #: ui/general.ui:5
 msgid "General"
@@ -185,7 +192,9 @@ msgstr "Mostra la percentuale in testo"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr "Aggiungi testo in percentuale accanto all'icona degli indicatori della batteria"
+msgstr ""
+"Aggiungi testo in percentuale accanto all'icona degli indicatori della "
+"batteria"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
@@ -221,11 +230,21 @@ msgstr ""
 "Scambia la posizione dell'icona del livello della batteria e del testo "
 "percentuale"
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr "Nota!"
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."

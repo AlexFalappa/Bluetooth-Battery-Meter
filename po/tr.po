@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 20:05-0700\n"
+"POT-Creation-Date: 2024-09-14 16:50-0700\n"
 "PO-Revision-Date: 2024-01-18 09:13+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -27,24 +27,24 @@ msgstr "Bağlantıyı Kes"
 msgid "Connect"
 msgstr "Bağlan"
 
-#: lib/bluetoothToggle42.js:163 lib/bluetoothToggle.js:267
+#: lib/bluetoothToggle42.js:170 lib/bluetoothToggle.js:274
 msgid "No available or connected devices"
 msgstr "Kullanılabilir ya da bağlı aygıt yok"
 
-#: lib/bluetoothToggle42.js:164 lib/bluetoothToggle.js:268
+#: lib/bluetoothToggle42.js:171 lib/bluetoothToggle.js:275
 msgid "Turn on Bluetooth to connect to devices"
 msgstr "Aygıtlara bağlanmak için Bluetooth’u aç"
 
 #: lib/bluetoothToggle.js:98 lib/bluetoothToggle.js:100
-#: lib/bluetoothToggle.js:121
+#: lib/bluetoothToggle.js:122
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: lib/bluetoothToggle.js:144
+#: lib/bluetoothToggle.js:147
 msgid "Bluetooth Settings"
 msgstr "Bluetooth Ayarları"
 
-#: lib/bluetoothToggle.js:456
+#: lib/bluetoothToggle.js:547
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -205,11 +205,21 @@ msgstr "Pil düzeyi simgesini metinden önce göster"
 msgid "Swaps position of battery level icon and percentage text"
 msgstr "Pil düzeyi simgesi ile yüzde metninin konumunu değiştirir"
 
-#: ui/general.ui:80
+#: ui/general.ui:78
+msgid "Sort devices by connection history"
+msgstr ""
+
+#: ui/general.ui:79
+msgid ""
+"Enable to sort by connection history. Disable to sort by connection status "
+"and alias"
+msgstr ""
+
+#: ui/general.ui:92
 msgid "Note!"
 msgstr "Not!"
 
-#: ui/general.ui:83
+#: ui/general.ui:95
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
