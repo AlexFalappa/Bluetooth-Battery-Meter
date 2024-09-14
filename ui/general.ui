@@ -73,6 +73,18 @@
             </child>
           </object>
         </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Sort devices by connection history</property>
+            <property name="subtitle" translatable="yes">Enable to sort by connection history. Disable to sort by connection status and alias</property>
+            <property name="activatable-widget">sort_devices_by_history</property>
+            <child>
+              <object class="GtkSwitch" id="sort_devices_by_history">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
       </object>
     </child>
     <child>
