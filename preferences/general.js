@@ -17,7 +17,6 @@ var General = GObject.registerClass({
         'enable_battery_level_text',
         'swap_icon_text',
         'swap_icon_text_row',
-        'sort_devices_by_history',
     ],
 }, class General extends Adw.PreferencesPage {
     constructor(settings) {
@@ -51,12 +50,6 @@ var General = GObject.registerClass({
         this._settings.bind(
             'swap-icon-text',
             this._swap_icon_text,
-            'active',
-            Gio.SettingsBindFlags.DEFAULT
-        );
-        this._settings.bind(
-            'sort-devices-by-history',
-            this._sort_devices_by_history,
             'active',
             Gio.SettingsBindFlags.DEFAULT
         );
