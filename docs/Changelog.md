@@ -8,7 +8,28 @@ permalink: /changelogs
 # Changelogs
 
 {: .important-title }
-> GN-45_Version 16 &emsp;&emsp; Jul 05, 2024
+> GN-45_Version 22 &emsp;&emsp; Sep 15, 2024
+> * Add support for Gnome-shell 47
+> * translation: Update Swedish translation. Credits: jnsson@crowdin.com
+> * translation: Update Chinese translation. credits: 资深小白程序猿 (ZSXB2468)@crowdin
+
+{: .note-title }
+> GN-44_Version 21 &emsp;&emsp; Sep 15, 2024
+> * translation: Update Swedish translation. Credits: jnsson@crowdin.com
+> * translation: Update Chinese translation. credits: 资深小白程序猿 (ZSXB2468)@crowdin
+
+{: .important-title }
+> GN-45_Version 20 &emsp;&emsp; Sep 08, 2024
+> * translation: Update Occitan translation. Credits: Mejans
+> * translation: Update French translation. Credits: Surfoo
+
+{: .note-title }
+> GN-44_Version 19 &emsp;&emsp; Sep 08, 2024
+> * translation: Update Occitan translation. Credits: Mejans
+> * translation: Update French translation. Credits: Surfoo
+
+{: .important-title }
+> GN-45_Version 18 &emsp;&emsp; Jul 05, 2024
 > * Custom theme support
 > * Bug fix: bluetoothIndicators: Avoid displaying battery percentage text 0% while disconnecting
 > * Bug fix: bluetoothIndicators: Do not create invisible indicators if device is not connected.
@@ -16,7 +37,7 @@ permalink: /changelogs
 > * translation: Update Italian translation. Credits: albanobattistella
 
 {: .note-title }
-> GN-44_Version 15 &emsp;&emsp; Jul 05, 2024
+> GN-44_Version 17 &emsp;&emsp; Jul 05, 2024
 > * Custom theme support
 > * Bug fix: bluetoothIndicators: Avoid displaying battery percentage text 0% while disconnecting
 > * Bug fix: bluetoothIndicators: Do not create invisible indicators if device is not connected.
