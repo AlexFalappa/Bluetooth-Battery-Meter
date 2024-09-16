@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-14 15:58-0700\n"
+"POT-Creation-Date: 2024-09-15 20:13-0700\n"
 "PO-Revision-Date: 2023-10-18 19:47+0200\n"
 "Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
@@ -44,7 +44,7 @@ msgstr "Trennen"
 msgid "Connect"
 msgstr "Verbinden"
 
-#: lib/bluetoothToggle.js:393
+#: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -206,21 +206,11 @@ msgstr ""
 msgid "Swaps position of battery level icon and percentage text"
 msgstr ""
 
-#: ui/general.ui:78
-msgid "Sort devices by connection history"
-msgstr ""
-
-#: ui/general.ui:79
-msgid ""
-"Enable to sort by connection history. Disable to sort by connection status "
-"and alias"
-msgstr ""
-
-#: ui/general.ui:92
+#: ui/general.ui:80
 msgid "Note!"
 msgstr ""
 
-#: ui/general.ui:95
+#: ui/general.ui:83
 msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
