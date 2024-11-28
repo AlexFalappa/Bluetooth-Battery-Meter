@@ -52,7 +52,7 @@ msgstr ""
 
 #: preferences/device.js:34
 msgid "Show all"
-msgstr "MOstra tutto"
+msgstr "Mostra tutto"
 
 #: preferences/device.js:35
 msgid "Hide all"
@@ -98,7 +98,7 @@ msgstr "(Rimosso)"
 
 #: preferences/device.js:109
 msgid "(Paired)"
-msgstr "(accoppiato)"
+msgstr "(Accoppiato)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -222,8 +222,8 @@ msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
 msgstr ""
-"Alcuni dispositivi Bluetooth non segnalano il livello della batteria a Bluez "
-"fino a che le funzionalità sperimentali sono abilitate nel sistema. "
+"Alcuni dispositivi Bluetooth non segnalano il livello della batteria fino a che "
+"le funzionalità sperimentali dello stack Bluez non sono abilitate nel sistema. "
 "Controlla il file Leggimi per i dettagli."
 
 #~ msgid "2024"
