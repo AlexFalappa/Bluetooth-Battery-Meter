@@ -13,23 +13,69 @@ const  DeviceItem = GObject.registerClass({
         this._path = path;
         this._macAddesss = this._pathToMacAddress(path);
 
-        let iconType;
-        if (icon === 'audio-headset')
-            iconType = 'audio-headphones';
-        else if (icon === 'audio-card')
-            iconType = 'audio-speakers';
-        else if (icon === 'phone-apple-iphone' || icon === 'phone-samsung-galaxy-s' || icon === 'phone-google-nexus-one')
-            iconType = 'phone';
-        else
-            iconType = icon;
-
-        const iconName = `${iconType}-symbolic`;
-
-        this._deviceIcon = new Gtk.Image({
-            icon_name: iconName,
+        const supportedIcons = [
+            'audio-card',
+            'audio-speakers',
+            'audio-headphones',
+            'audio-headset',
+            'earbuds',
+            'earbuds2',
+            'earbuds-stem',
+            'earbuds-stem2',
+            'input-gaming',
+            'input-keyboard',
+            'input-mouse',
+            'input-tablet',
+            'phone',
+            'phone-samsung-galaxy-s',
+            'phone-apple-iphone',
+            'phone-google-nexus-one',
+            'camera-photo',
+            'camera-video',
+            'computer',
+            'video-display',
+            'modem',
+            'network-wireless',
+            'printer',
+            'scanner',
+            'multimedia-player',
+            'bluetooth',
+        ];
+        this._deviceIconButton = new Gtk.MenuButton({
+            icon_name: icon,
+            tooltip_text: _('Select icon'),
+            css_classes: ['accent'],
             valign: Gtk.Align.CENTER,
         });
+        const popover = new Gtk.Popover({
+            has_arrow: true,
+            autohide: true,
+            position: 1,
+        });
+        const grid = new Gtk.Grid({
+            column_spacing: 10,
+            row_spacing: 10,
+        });
 
+        supportedIcons.forEach((deviceType, index) => {
+            const button = new Gtk.Button({
+                icon_name: `bbm-${deviceType}-symbolic`,
+                css_classes: ['accent'],
+                valign: Gtk.Align.CENTER,
+            });
+            grid.attach(button, index % 3, Math.floor(index / 3), 1, 1);
+            button.connect('clicked', () => {
+                popover.hide();
+                const pairedDevice = settings.get_strv('paired-supported-device-list');
+                const existingPathIndex = pairedDevice.findIndex(item => JSON.parse(item).path === path);
+                const existingItem = JSON.parse(pairedDevice[existingPathIndex]);
+                existingItem['icon'] = deviceType;
+                pairedDevice[existingPathIndex] = JSON.stringify(existingItem);
+                settings.set_strv('paired-supported-device-list', pairedDevice);
+            });
+        });
+        popover.set_child(grid);
+        this._deviceIconButton.set_popover(popover);
         const list = new Gtk.StringList();
         list.append(_('Show all'));
         list.append(_('Hide all'));
@@ -87,10 +133,10 @@ const  DeviceItem = GObject.registerClass({
         const box = new Gtk.Box({spacing: 16});
         box.append(this._selector);
         box.append(this._deleteButton);
-
-        this.add_prefix(this._deviceIcon);
+        this.add_prefix(this._deviceIconButton);
         this.add_suffix(box);
-        this.updateProperites(alias, paired, batteryEnabled, indicatorEnabled);
+
+        this.updateProperites(alias, paired, batteryEnabled, indicatorEnabled, icon);
     }
 
     _updateSelection(batteryEnabled, indicatorEnabled) {
@@ -104,13 +150,14 @@ const  DeviceItem = GObject.registerClass({
         this._selector.set_selected(currentModelIndex);
     }
 
-    updateProperites(alias, paired, batteryEnabled, indicatorEnabled) {
+    updateProperites(alias, paired, batteryEnabled, indicatorEnabled, icon) {
         const removedLabel = _('(Removed)');
         const pairedLabel = _('(Paired)');
         this._updateSelection(batteryEnabled, indicatorEnabled);
         this.title = alias;
         this.subtitle = paired ? `${this._macAddesss} ${pairedLabel}` : `${this._macAddesss} ${removedLabel}`;
         this._deleteButton.sensitive = !paired;
+        this._deviceIconButton.icon_name = `bbm-${icon}-symbolic`;
     }
 
     _pathToMacAddress(path) {
@@ -148,7 +195,7 @@ export const  Device = GObject.registerClass({
             const {path, icon, alias, paired, 'battery-enabled': batteryEnabled, 'indicator-enabled': indicatorEnabled} = pathInfo;
             if (this._deviceItems.has(path)) {
                 const row = this._deviceItems.get(path);
-                row.updateProperites(alias, paired, batteryEnabled, indicatorEnabled);
+                row.updateProperites(alias, paired, batteryEnabled, indicatorEnabled, icon);
             } else {
                 const deviceItem = new DeviceItem(this._settings, this._deviceItems, path, icon, alias, paired, batteryEnabled, indicatorEnabled);
                 this._deviceItems.set(path, deviceItem);

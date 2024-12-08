@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="Bluetooth-Battery-Meter@maniacx.github.com">
+  <template class="BBM_Indicator" parent="AdwPreferencesPage">
+    <property name="name">Indicator</property>
+    <property name="title" translatable="yes">Indicator</property>
+    <property name="icon-name">view-list-symbolic</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Indicator Settings</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Enable Bluetooth device battery indicators</property>
+            <property name="subtitle" translatable="yes">Show icon in system tray with device battery level</property>
+            <property name="activatable-widget">enable_battery_indicator</property>
+            <child>
+              <object class="GtkSwitch" id="enable_battery_indicator">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Show percentage in text</property>
+            <property name="subtitle" translatable="yes">Add text in percentage next to battery indicators icon</property>
+            <property name="activatable-widget">enable_battery_indicator_text</property>
+            <property name="sensitive" bind-source="enable_battery_indicator" bind-property="active" bind-flags="default" />
+            <child>
+              <object class="GtkSwitch" id="enable_battery_indicator_text">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="indicator_widget_settings_group">
+        <property name="title" translatable="yes">Indicator Widget Settings</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Choose Battery Level Indicator Type</property>
+            <property name="subtitle" translatable="yes">Dots provide better visibility</property>
+            <property name="activatable-widget">level_indicator_type</property>
+            <child>
+              <object class="GtkDropDown" id="level_indicator_type">
+                <property name="valign">center</property>
+                <property name="model">level_indicator_type_model</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Choose Battery Indicator Color Scheme</property>
+            <property name="subtitle" translatable="yes">Choose color scheme for level bar/dots</property>
+            <property name="activatable-widget">level_indicator_color</property>
+            <child>
+              <object class="GtkDropDown" id="level_indicator_color">
+                <property name="valign">center</property>
+                <property name="model">level_indicator_color_model</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="customize_color_group" />
+    </child>
+  </template>
+  <object class="GtkStringList" id="level_indicator_type_model">
+    <items>
+      <item translatable="yes">Battery Level Bar</item>
+      <item translatable="yes">Battery Level Dot</item>
+    </items>
+  </object>
+  <object class="GtkStringList" id="level_indicator_color_model">
+    <items>
+      <item translatable="yes">Symbolic</item>
+      <item translatable="yes">Colored</item>
+      <item translatable="yes">Customized</item>
+    </items>
+  </object>
+</interface>
