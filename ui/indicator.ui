@@ -37,6 +37,7 @@
     <child>
       <object class="AdwPreferencesGroup" id="indicator_widget_settings_group">
         <property name="title" translatable="yes">Indicator Widget Settings</property>
+        <property name="sensitive" bind-source="enable_battery_indicator" bind-property="active" bind-flags="default" />
         <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Choose Battery Level Indicator Type</property>
