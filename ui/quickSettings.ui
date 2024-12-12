@@ -9,8 +9,8 @@
         <property name="title" translatable="yes">Quick Menu Settings</property>
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Show Bluetooth device battery level icon</property>
-            <property name="subtitle" translatable="yes">Displays icon in popup menu showing Bluetooth device battery level</property>
+            <property name="title" translatable="yes">Show battery icon for Bluetooth devices</property>
+            <property name="subtitle" translatable="yes">Displays an icon in the popup menu for Bluetooth device battery level"</property>
             <property name="activatable-widget">enable_battery_level_icon</property>
             <child>
               <object class="GtkSwitch" id="enable_battery_level_icon">
@@ -46,7 +46,7 @@
         <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Sort devices by connection history</property>
-            <property name="subtitle" translatable="yes">Enable to sort by connection history. Disable to sort by connection status and alias</property>
+            <property name="subtitle" translatable="yes">Enable to sort devices by connection history, or disable to sort by connection status and alias</property>
             <property name="activatable-widget">sort_devices_by_history</property>
             <child>
               <object class="GtkSwitch" id="sort_devices_by_history">

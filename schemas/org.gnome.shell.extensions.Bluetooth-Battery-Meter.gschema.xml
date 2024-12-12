@@ -17,11 +17,15 @@
             <default>false</default>
             <summary>Displays a text the percentage of bluetooth device battery level in bluetooth quickmenu</summary>
         </key>
+        <key name="hide-bluetooth-indicator" type="i">
+            <default>0</default>
+            <summary>Hide bluetooth indicator when device indicators are displayed</summary>
+        </key>
         <key name="swap-icon-text" type="b">
             <default>false</default>
             <summary>Display battery level icon before level percentage text in quick menu</summary>
         </key>
-        <key name="paired-supported-device-list" type="as">
+        <key name="device-list" type="as">
             <default>[]</default>
             <summary>List of paired devices that reports battery level</summary>
         </key>
@@ -70,11 +74,11 @@
             <summary>"Level Color for 30 - 40"</summary>
         </key>
         <key name="color-20" type="s">
-            <default>"#15c931"</default>
+            <default>"#ff7800"</default>
             <summary>"Level Color for 20 - 30"</summary>
         </key>
         <key name="color-10" type="s">
-            <default>"#15c931"</default>
+            <default>"#ff7800"</default>
             <summary>"Level Color for 10 - 20"</summary>
         </key>
     </schema>

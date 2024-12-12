@@ -83,6 +83,7 @@ export const  Indicator = GObject.registerClass({
         'indicator_widget_settings_group',
         'enable_battery_indicator',
         'enable_battery_indicator_text',
+        'hide_bluetooth_indicator',
         'level_indicator_type',
         'level_indicator_color',
         'customize_color_group',
@@ -101,6 +102,12 @@ export const  Indicator = GObject.registerClass({
             'enable-battery-indicator-text',
             this._enable_battery_indicator_text,
             'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+        settings.bind(
+            'hide-bluetooth-indicator',
+            this._hide_bluetooth_indicator,
+            'selected',
             Gio.SettingsBindFlags.DEFAULT
         );
         settings.bind(

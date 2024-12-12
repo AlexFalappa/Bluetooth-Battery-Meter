@@ -9,8 +9,8 @@
         <property name="title" translatable="yes">Indicator Settings</property>
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Enable Bluetooth device battery indicators</property>
-            <property name="subtitle" translatable="yes">Show icon in system tray with device battery level</property>
+            <property name="title" translatable="yes">Enable battery indicators for Bluetooth devices</property>
+            <property name="subtitle" translatable="yes">Displays Bluetooth device icon with battery level in system tray</property>
             <property name="activatable-widget">enable_battery_indicator</property>
             <child>
               <object class="GtkSwitch" id="enable_battery_indicator">
@@ -21,13 +21,26 @@
         </child>
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Show percentage in text</property>
-            <property name="subtitle" translatable="yes">Add text in percentage next to battery indicators icon</property>
+            <property name="title" translatable="yes">Display battery percentage as text</property>
+            <property name="subtitle" translatable="yes">Displays battery percentage beside the Bluetooth device icon</property>
             <property name="activatable-widget">enable_battery_indicator_text</property>
             <property name="sensitive" bind-source="enable_battery_indicator" bind-property="active" bind-flags="default" />
             <child>
               <object class="GtkSwitch" id="enable_battery_indicator_text">
                 <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Bluetooth adapter indicator settings</property>
+            <property name="subtitle" translatable="yes">Show, hide, or hide when other indicators are present</property>
+            <property name="activatable-widget">hide_bluetooth_indicator</property>
+            <child>
+              <object class="GtkDropDown" id="hide_bluetooth_indicator">
+                <property name="valign">center</property>
+                <property name="model">hide_bluetooth_indicator_model</property>
               </object>
             </child>
           </object>
@@ -40,8 +53,8 @@
         <property name="sensitive" bind-source="enable_battery_indicator" bind-property="active" bind-flags="default" />
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Choose Battery Level Indicator Type</property>
-            <property name="subtitle" translatable="yes">Dots provide better visibility</property>
+            <property name="title" translatable="yes">Battery Level Indicator Type</property>
+            <property name="subtitle" translatable="yes">Dots offer better visibility</property>
             <property name="activatable-widget">level_indicator_type</property>
             <child>
               <object class="GtkDropDown" id="level_indicator_type">
@@ -53,7 +66,7 @@
         </child>
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Choose Battery Indicator Color Scheme</property>
+            <property name="title" translatable="yes">Battery Indicator Color Scheme</property>
             <property name="subtitle" translatable="yes">Choose color scheme for level bar/dots</property>
             <property name="activatable-widget">level_indicator_color</property>
             <child>
@@ -67,9 +80,18 @@
       </object>
     </child>
     <child>
-      <object class="AdwPreferencesGroup" id="customize_color_group" />
+      <object class="AdwPreferencesGroup" id="customize_color_group">
+        <property name="sensitive" bind-source="enable_battery_indicator" bind-property="active" bind-flags="default" />
+      </object>
     </child>
   </template>
+  <object class="GtkStringList" id="hide_bluetooth_indicator_model">
+    <items>
+      <item translatable="yes">Show Always</item>
+      <item translatable="yes">Hide Always</item>
+      <item translatable="yes">Hide Conditionally</item>
+    </items>
+  </object>
   <object class="GtkStringList" id="level_indicator_type_model">
     <items>
       <item translatable="yes">Battery Level Bar</item>
