@@ -267,7 +267,12 @@ export const  Device = GObject.registerClass({
             return;
         }
         this._no_paired_row.visible  = false;
-        for (const info of pathsString) {
+        const pairedDevices = pathsString.filter(device => device.paired);
+        const unpairedDevices = pathsString.filter(device => !device.paired);
+        pairedDevices.sort((a, b) => b['connected-time'] - a['connected-time']);
+        unpairedDevices.sort((a, b) => b['disconnected-time'] - a['disconnected-time']);
+        const sortedDevices = [...pairedDevices, ...unpairedDevices];
+        for (const info of sortedDevices) {
             const pathInfo = {
                 path: info.path,
                 icon: info.icon,
