@@ -48,11 +48,11 @@ const  ConfigureWindow = GObject.registerClass({
         });
 
         const supportedIcons = [
-            'audio-card', 'audio-speakers', 'audio-headphones', 'audio-headset', 'earbuds', 'earbuds2',
-            'earbuds-stem', 'earbuds-stem2', 'input-gaming', 'input-keyboard', 'input-mouse', 'input-tablet',
-            'phone', 'phone-samsung-galaxy-s', 'phone-apple-iphone', 'phone-google-nexus-one', 'camera-photo',
-            'camera-video', 'computer', 'video-display', 'modem', 'network-wireless', 'printer', 'scanner',
-            'multimedia-player', 'bluetooth',
+            'audio-card', 'audio-speakers', 'audio-speakers2', 'audio-speakers3', 'audio-headphones', 'audio-headset',
+            'earbuds', 'earbuds2', 'earbuds-stem', 'earbuds-stem2', 'input-gaming', 'input-gaming2', 'input-gaming3',
+            'input-keyboard', 'input-keyboard2', 'input-mouse', 'input-tablet', 'touchpad', 'phone', 'phone-samsung-galaxy-s',
+            'phone-apple-iphone', 'phone-google-nexus-one', 'camera-photo', 'camera-video', 'computer', 'video-display',
+            'modem', 'network-wireless', 'printer', 'scanner', 'multimedia-player', 'bluetooth',
         ];
 
         const iconSplitButton = new Adw.SplitButton({
