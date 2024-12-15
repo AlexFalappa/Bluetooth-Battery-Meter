@@ -14,16 +14,30 @@ const  CustomizeRow = GObject.registerClass({
         this.title = _('Assign color for %d – %d%%').format(level - 10, level);
         this.subtitle = _('Set color for the battery level range of %d – %d%%').format(level - 10, level);
 
-        const colorButton = new Gtk.ColorButton({
-            valign: Gtk.Align.CENTER,
-            halign: Gtk.Align.END,
-        });
+        const major = Gtk.get_major_version();
+        const minor = Gtk.get_minor_version();
 
+        let colorButton;
+        let signalEmitted;
+        if (major > 4 || major === 4 && minor >= 10) {
+            signalEmitted = 'notify::rgba';
+            const colorDialog = new Gtk.ColorDialog({
+                with_alpha: false,
+            });
+            colorButton = new Gtk.ColorDialogButton({
+                dialog: colorDialog,
+            });
+        } else {
+            signalEmitted = 'color-set';
+            colorButton = new Gtk.ColorButton();
+        }
+
+        colorButton.valign = Gtk.Align.CENTER;
+        colorButton.halign = Gtk.Align.END;
         const entry = new Gtk.Entry({
             valign: Gtk.Align.CENTER,
             halign: Gtk.Align.END,
             max_length: 7,
-            // text_length: 7,
         });
 
         this.add_suffix(colorButton);
@@ -46,7 +60,7 @@ const  CustomizeRow = GObject.registerClass({
             return new Gdk.RGBA({red: r, green: g, blue: b, alpha: 1});
         };
 
-        colorButton.connect('color-set', () => {
+        colorButton.connect(signalEmitted, () => {
             const color = colorButton.get_rgba();
             const hexColor = rgbaToHex(color);
             entry.set_placeholder_text(hexColor);
