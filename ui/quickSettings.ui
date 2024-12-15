@@ -3,7 +3,7 @@
   <template class="BBM_QuickSettings" parent="AdwPreferencesPage">
     <property name="name">Quick Menu</property>
     <property name="title" translatable="yes">Quick Menu</property>
-    <property name="icon-name">view-list-symbolic</property>
+    <property name="icon-name">bbm-quick-settings-symbolic</property>
     <child>
       <object class="AdwPreferencesGroup">
         <property name="title" translatable="yes">Quick Menu Settings</property>

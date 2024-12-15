@@ -3,7 +3,7 @@
   <template class="BBM_Indicator" parent="AdwPreferencesPage">
     <property name="name">Indicator</property>
     <property name="title" translatable="yes">Indicator</property>
-    <property name="icon-name">view-list-symbolic</property>
+    <property name="icon-name">bbm-panel-symbolic</property>
     <child>
       <object class="AdwPreferencesGroup">
         <property name="title" translatable="yes">Indicator Settings</property>
