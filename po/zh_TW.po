@@ -23,21 +23,21 @@ msgstr ""
 
 #: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
-msgstr "中斷連接"
+msgstr "中斷連線"
 
 #: lib/bluetoothPopupMenu.js:72
 msgid "Connect"
-msgstr "連接"
+msgstr "連線"
 
 #: lib/bluetoothToggle.js:288
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
-msgstr[0] "%d 個裝置已連接"
+msgstr[0] "%d 個裝置已連線"
 
 #: preferences/about.js:40
 msgid "GNU General Public License, version 3 or later"
-msgstr "《GNU 通用公眾授權條款》3.0 版或更新的版本"
+msgstr "GNU 通用公眾授權條款第 3 版或更新的版本"
 
 #: preferences/about.js:47
 #, javascript-format
@@ -49,19 +49,19 @@ msgstr "© %s %s"
 msgid ""
 "This application comes with absolutely no warranty. See the <a "
 "href=\"%s\">%s</a> for details."
-msgstr "這個程式沒有任何擔保責任。如需更多資訊，請參閱<a href=\"%s\">%s</a>。"
+msgstr "本應用程式完全不提供任何擔保責任。如需更多資訊，請參閱<a href=\"%s\">%s</a>。"
 
 #: preferences/device.js:34
 msgid "Show all"
-msgstr ""
+msgstr "顯示全部"
 
 #: preferences/device.js:35
 msgid "Hide all"
-msgstr ""
+msgstr "隱藏全部"
 
 #: preferences/device.js:36
 msgid "Hide indicator"
-msgstr ""
+msgstr "隱藏指示器"
 
 #: preferences/device.js:41
 msgid ""
@@ -74,19 +74,27 @@ msgid ""
 "Hide indicator:\n"
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
+"顯示全部：\n"
+"在快速設定中顯示指示器圖示與電池資訊。\n"
+"\n"
+"隱藏全部：\n"
+"在快速設定中隱藏電池資訊與指示器圖示。\n"
+"\n"
+"隱藏指示器：\n"
+"僅隱藏指示器圖示，在快速設定中仍顯示電池資訊。"
 
 #: preferences/device.js:67
 msgid ""
 "Delete device information: The button is available after unpairing device"
-msgstr ""
+msgstr "刪除裝置資訊：取消配對裝置後此按鈕即可使用"
 
 #: preferences/device.js:108
 msgid "(Removed)"
-msgstr ""
+msgstr "（已移除）"
 
 #: preferences/device.js:109
 msgid "(Paired)"
-msgstr ""
+msgstr "（已配對）"
 
 #: ui/about.ui:5
 msgid "About"
@@ -122,19 +130,19 @@ msgstr "線上教學"
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "裝置"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "依裝置顯示／隱藏電池資訊"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
-msgstr ""
+msgstr "注意：一般設定會覆蓋個別裝置設定"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
-msgstr ""
+msgstr "尚未配對任何可回報電池資訊的裝置！"
 
 #: ui/general.ui:5
 msgid "General"
@@ -154,11 +162,11 @@ msgstr "在系統工具列上顯示裝置電池電量圖示"
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "以文字顯示百分比"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr ""
+msgstr "在電池指示器圖示旁加入百分比文字"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
@@ -197,5 +205,5 @@ msgid ""
 "Certain Bluetooth devices do not report battery level until Bluez's "
 "experimental features are enabled in system. Check Readme for details."
 msgstr ""
-"某些藍牙裝置在系統啟用 Bluez 的實驗功能前不會回傳電池電量。詳細資訊請查閱 "
+"某些藍牙裝置在系統啟用 Bluez 的實驗性功能前不會回傳電池電量。詳細資訊請查閱 "
 "Readme。"
