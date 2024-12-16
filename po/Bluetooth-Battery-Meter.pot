@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-16 10:42-0800\n"
+"POT-Creation-Date: 2024-12-16 14:16-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,6 +142,14 @@ msgstr ""
 #: preferences/indicator.js:15
 #, javascript-format
 msgid "Set color for the battery level range of %d – %d%%"
+msgstr ""
+
+#: preferences/quickSettings.js:53
+#, javascript-format
+msgid ""
+"Certain Bluetooth devices do not report battery level until Bluez's "
+"experimental features are enabled in system. Check <a href=\"%s\">Readme</a> "
+"for details."
 msgstr ""
 
 #: ui/about.ui:5
@@ -314,10 +322,4 @@ msgstr ""
 
 #: ui/quickSettings.ui:62
 msgid "Note!"
-msgstr ""
-
-#: ui/quickSettings.ui:65
-msgid ""
-"Certain Bluetooth devices do not report battery level until Bluez's "
-"experimental features are enabled in system. Check Readme for details."
 msgstr ""
