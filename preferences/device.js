@@ -57,7 +57,6 @@ const  ConfigureWindow = GObject.registerClass({
 
         const iconSplitButton = new Adw.SplitButton({
             icon_name: `bbm-${pathInfo.icon}-symbolic`,
-            dropdown_tooltip: _('Select icon'),
             valign: Gtk.Align.CENTER,
         });
 
@@ -186,6 +185,7 @@ const  DeviceItem = GObject.registerClass({
 
         this._customiseButton = new Gtk.Button({
             icon_name: 'bbm-settings-symbolic',
+            tooltip_text: _('Configure device.'),
             valign: Gtk.Align.CENTER,
         });
 
