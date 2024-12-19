@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-shell.master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 20:13-0700\n"
-"PO-Revision-Date: 2024-01-11 20:20+0100\n"
+"PO-Revision-Date: 2024-12-19 20:36+0100\n"
 "Last-Translator: Jose Luis Tirado <joseluis.tirado@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: lib/bluetoothPopupMenu.js:72
 msgid "Disconnect"
@@ -56,15 +56,15 @@ msgstr ""
 
 #: preferences/device.js:34
 msgid "Show all"
-msgstr ""
+msgstr "Mostrar todo"
 
 #: preferences/device.js:35
 msgid "Hide all"
-msgstr ""
+msgstr "Ocultar todo"
 
 #: preferences/device.js:36
 msgid "Hide indicator"
-msgstr ""
+msgstr "Ocultar indicador"
 
 #: preferences/device.js:41
 msgid ""
@@ -77,19 +77,32 @@ msgid ""
 "Hide indicator:\n"
 "Hide only Indicator icon, Show battery information in QuickSetting."
 msgstr ""
+"Mostrar todo:\n"
+"Muestra el icono del indicador y la información de la batería en "
+"Configuración rápida.\n"
+"\n"
+"Ocultar todo:\n"
+"Ocultar la información de la batería y el icono del indicador en "
+"Configuración rápida.\n"
+"\n"
+"Ocultar indicador:\n"
+"Oculta solo el icono del indicador, y muestra la información de la batería "
+"en Configuración rápida."
 
 #: preferences/device.js:67
 msgid ""
 "Delete device information: The button is available after unpairing device"
 msgstr ""
+"Eliminar información del dispositivo: el botón está disponible tras "
+"desemparejar el dispositivo"
 
 #: preferences/device.js:108
 msgid "(Removed)"
-msgstr ""
+msgstr "(Eliminado)"
 
 #: preferences/device.js:109
 msgid "(Paired)"
-msgstr ""
+msgstr "(Emparejado)"
 
 #: ui/about.ui:5
 msgid "About"
@@ -125,19 +138,21 @@ msgstr "Tutoriales en línea"
 
 #: ui/device.ui:5
 msgid "Device"
-msgstr ""
+msgstr "Dispositivo"
 
 #: ui/device.ui:9
 msgid "Show / hide battery information per device"
-msgstr ""
+msgstr "Mostrar/ocultar la información de la batería por dispositivo"
 
 #: ui/device.ui:10
 msgid "Note: General Setting overrides per device settings"
 msgstr ""
+"Nota: La Configuración general sobrescribe la configuración por dispositivo"
 
 #: ui/device.ui:13
 msgid "No battery reporting capable device paired!"
 msgstr ""
+"¡No hay ningún dispositivo emparejado con capacidad para reportar la batería!"
 
 #: ui/general.ui:5
 msgid "General"
@@ -157,11 +172,11 @@ msgstr "Mostrar icono en la bandeja del sistema con el nivel de batería"
 
 #: ui/general.ui:24
 msgid "Show percentage in text"
-msgstr ""
+msgstr "Mostrar el porcentaje como texto"
 
 #: ui/general.ui:25
 msgid "Add text in percentage next to battery indicators icon"
-msgstr ""
+msgstr "Añadir texto en el porcentaje junto al icono indicador de la batería"
 
 #: ui/general.ui:39
 msgid "Quick Menu Settings"
