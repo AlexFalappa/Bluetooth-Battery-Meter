@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-16 10:42-0800\n"
+"POT-Creation-Date: 2024-12-17 16:01-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,52 +73,52 @@ msgstr ""
 msgid "Select the icon used for the indicator and quick menu"
 msgstr ""
 
-#: preferences/device.js:60
-msgid "Select icon"
-msgstr ""
-
-#: preferences/device.js:99 ui/quickSettings.ui:5
+#: preferences/device.js:98 ui/quickSettings.ui:5
 msgid "Quick Menu"
 msgstr ""
 
-#: preferences/device.js:103
+#: preferences/device.js:102
 msgid "Display Battery Level"
 msgstr ""
 
-#: preferences/device.js:104
+#: preferences/device.js:103
 msgid "Display battery level in the Bluetooth panel quick menu"
 msgstr ""
 
-#: preferences/device.js:128 ui/indicator.ui:5
+#: preferences/device.js:127 ui/indicator.ui:5
 msgid "Indicator"
 msgstr ""
 
-#: preferences/device.js:132
+#: preferences/device.js:131
 msgid "Configure Indicator"
 msgstr ""
 
-#: preferences/device.js:133
+#: preferences/device.js:132
 msgid "Choose how the indicator should behave"
 msgstr ""
 
-#: preferences/device.js:138
+#: preferences/device.js:137
 msgid "Do not show Icon"
 msgstr ""
 
-#: preferences/device.js:139
+#: preferences/device.js:138
 msgid "Show Icon without Battery level"
 msgstr ""
 
-#: preferences/device.js:140
+#: preferences/device.js:139
 msgid "Show Icon with Battery Level"
 msgstr ""
 
-#: preferences/device.js:143
+#: preferences/device.js:142
 msgid "Hide Icon"
 msgstr ""
 
-#: preferences/device.js:144
+#: preferences/device.js:143
 msgid "Show Icon"
+msgstr ""
+
+#: preferences/device.js:188
+msgid "Configure device."
 msgstr ""
 
 #: preferences/device.js:200
@@ -142,6 +142,14 @@ msgstr ""
 #: preferences/indicator.js:15
 #, javascript-format
 msgid "Set color for the battery level range of %d – %d%%"
+msgstr ""
+
+#: preferences/quickSettings.js:53
+#, javascript-format
+msgid ""
+"Certain Bluetooth devices do not report battery level until Bluez's "
+"experimental features are enabled in system. Check <a href=\"%s\">Readme</a> "
+"for details."
 msgstr ""
 
 #: ui/about.ui:5
@@ -189,7 +197,7 @@ msgid "Note: General settings override device-specific settings"
 msgstr ""
 
 #: ui/device.ui:13
-msgid "No battery reporting capable device paired!"
+msgid "No Bluetooth device paired!"
 msgstr ""
 
 #: ui/indicator.ui:9
@@ -314,10 +322,4 @@ msgstr ""
 
 #: ui/quickSettings.ui:62
 msgid "Note!"
-msgstr ""
-
-#: ui/quickSettings.ui:65
-msgid ""
-"Certain Bluetooth devices do not report battery level until Bluez's "
-"experimental features are enabled in system. Check Readme for details."
 msgstr ""
