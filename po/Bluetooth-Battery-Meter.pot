@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bluetooth Battery Meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 16:01-0800\n"
+"POT-Creation-Date: 2024-12-21 22:33-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -291,7 +291,7 @@ msgid "Show battery icon for Bluetooth devices"
 msgstr ""
 
 #: ui/quickSettings.ui:13
-msgid "Displays an icon in the popup menu for Bluetooth device battery level\""
+msgid "Displays an icon in the popup menu for Bluetooth device battery level"
 msgstr ""
 
 #: ui/quickSettings.ui:24
