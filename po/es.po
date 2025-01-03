@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 16:01-0800\n"
-"PO-Revision-Date: 2024-12-20 18:35+0100\n"
+"POT-Creation-Date: 2025-01-02 18:42-0800\n"
+"PO-Revision-Date: 2025-01-02 10:37-0800\n"
 "Last-Translator: Jose Luis Tirado <joseluis.tirado@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: lib/bluetoothPopupMenu.js:68
 msgid "Disconnect"
@@ -29,7 +29,7 @@ msgstr "Desconectar"
 msgid "Connect"
 msgstr "Conectar"
 
-#: lib/bluetoothToggle.js:410
+#: lib/bluetoothToggle.js:422
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -222,7 +222,6 @@ msgid "Enable battery indicators for Bluetooth devices"
 msgstr "Activar los indicares de batería para dispositivos Bluetooth"
 
 #: ui/indicator.ui:13
-#| msgid "Displays Bluetooth device battery level percentage in text"
 msgid "Displays Bluetooth device icon with battery level in system tray"
 msgstr ""
 "Muestra el icono del dispositivo Bluetooth con el nivel de batería en la "
@@ -310,7 +309,7 @@ msgid "Show battery icon for Bluetooth devices"
 msgstr "Mostrar el icono de batería para dispositivos Bluetooth"
 
 #: ui/quickSettings.ui:13
-msgid "Displays an icon in the popup menu for Bluetooth device battery level\""
+msgid "Displays an icon in the popup menu for Bluetooth device battery level"
 msgstr ""
 "Muestra un icono en el menú emergente para el nivel de batería de los "
 "dispositivos Bluetooth"
@@ -349,6 +348,12 @@ msgstr ""
 #: ui/quickSettings.ui:62
 msgid "Note!"
 msgstr "¡Aviso!"
+
+#~ msgid ""
+#~ "Displays an icon in the popup menu for Bluetooth device battery level\""
+#~ msgstr ""
+#~ "Muestra un icono en el menú emergente para el nivel de batería de los "
+#~ "dispositivos Bluetooth"
 
 #~ msgid "Show all"
 #~ msgstr "Mostrar todo"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluetooth-battery-meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 22:33-0800\n"
+"POT-Creation-Date: 2025-01-02 18:42-0800\n"
 "PO-Revision-Date: 2025-01-02 18:24\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -25,7 +25,7 @@ msgstr "Desconectar"
 msgid "Connect"
 msgstr "Conectar"
 
-#: lib/bluetoothToggle.js:410
+#: lib/bluetoothToggle.js:422
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -43,8 +43,12 @@ msgstr "© %s %s"
 
 #: preferences/about.js:48
 #, javascript-format
-msgid "This application comes with absolutely no warranty. See the <a href=\"%s\">%s</a> for details."
-msgstr "Este aplicativo vem sem absolutamente nenhuma garantia. Consulte a <a href=\"%s\">%s</a> para mais detalhes."
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Este aplicativo vem sem absolutamente nenhuma garantia. Consulte a <a "
+"href=\"%s\">%s</a> para mais detalhes."
 
 #: preferences/device.js:36
 msgid "Battery Status:"
@@ -119,8 +123,11 @@ msgid "Configure device."
 msgstr "Configurar dispositivo."
 
 #: preferences/device.js:200
-msgid "Delete device information: The button is available after unpairing device"
-msgstr "Deletar informação do dispositivo: O botão estará disponível após desemparelhar o dispositivo"
+msgid ""
+"Delete device information: The button is available after unpairing device"
+msgstr ""
+"Deletar informação do dispositivo: O botão estará disponível após "
+"desemparelhar o dispositivo"
 
 #: preferences/device.js:231
 msgid "(Removed)"
@@ -142,8 +149,14 @@ msgstr "Definir cor para o nível da bateria na faixa de %d – %d%%"
 
 #: preferences/quickSettings.js:53
 #, javascript-format
-msgid "Certain Bluetooth devices do not report battery level until Bluez's experimental features are enabled in system. Check <a href=\"%s\">Readme</a> for details."
-msgstr "Certos dispositivos não informam o nível da bateria até que as funções experimentais Bluez sejam ativadas. Verifique  <a href=\"%s\">Leia-me</a>  para mais detalhes."
+msgid ""
+"Certain Bluetooth devices do not report battery level until Bluez's "
+"experimental features are enabled in system. Check <a href=\"%s\">Readme</a> "
+"for details."
+msgstr ""
+"Certos dispositivos não informam o nível da bateria até que as funções "
+"experimentais Bluez sejam ativadas. Verifique  <a href=\"%s\">Leia-me</a>  "
+"para mais detalhes."
 
 #: ui/about.ui:5
 msgid "About"
@@ -187,7 +200,8 @@ msgstr "Configuração por dispositivo"
 
 #: ui/device.ui:10
 msgid "Note: General settings override device-specific settings"
-msgstr "Aviso: Configurações gerais anulam configurações específicas do dispositivo"
+msgstr ""
+"Aviso: Configurações gerais anulam configurações específicas do dispositivo"
 
 #: ui/device.ui:13
 msgid "No Bluetooth device paired!"
@@ -203,7 +217,9 @@ msgstr "Habilita indicadores de bateria para dispositivos Bluetooth pareados"
 
 #: ui/indicator.ui:13
 msgid "Displays Bluetooth device icon with battery level in system tray"
-msgstr "Exibir o ícone de dispositivos Bluetooth com o nível de bateria na bandeja do sistema"
+msgstr ""
+"Exibir o ícone de dispositivos Bluetooth com o nível de bateria na bandeja "
+"do sistema"
 
 #: ui/indicator.ui:24
 msgid "Display battery percentage as text"
@@ -211,15 +227,20 @@ msgstr "Exibir a porcentagem da bateria como texto"
 
 #: ui/indicator.ui:25
 msgid "Displays battery percentage beside the Bluetooth device icon"
-msgstr "Exibir a porcentagem da bateria ao lado do ícone do dispositivo Bluetooth"
+msgstr ""
+"Exibir a porcentagem da bateria ao lado do ícone do dispositivo Bluetooth"
 
 #: ui/indicator.ui:37
 msgid "Bluetooth Connection Status Indicator"
 msgstr "Indicador do Estado da Conexão Bluetooth"
 
 #: ui/indicator.ui:38
-msgid "Hide conditionally: Displayed only when no other bluetooth related indicators are present"
-msgstr "Ocultar condicionalmente: Exibir apenas quando nenhum outro indicador Bluetooth estiver presente"
+msgid ""
+"Hide conditionally: Displayed only when no other bluetooth related "
+"indicators are present"
+msgstr ""
+"Ocultar condicionalmente: Exibir apenas quando nenhum outro indicador "
+"Bluetooth estiver presente"
 
 #: ui/indicator.ui:52
 msgid "Indicator Widget Settings"
@@ -283,7 +304,9 @@ msgstr "Exibir o ícone da bateria para dispositivos Bluetooth"
 
 #: ui/quickSettings.ui:13
 msgid "Displays an icon in the popup menu for Bluetooth device battery level"
-msgstr "Exibir um ícone no menu pop-up para o npivel de bateria de Dispositivos Bluetooth"
+msgstr ""
+"Exibir um ícone no menu pop-up para o npivel de bateria de Dispositivos "
+"Bluetooth"
 
 #: ui/quickSettings.ui:24
 msgid "Show Bluetooth device battery percentage"
@@ -291,7 +314,8 @@ msgstr "Mostrar porcentagem de bateria do dispositivo Bluetooth"
 
 #: ui/quickSettings.ui:25
 msgid "Displays Bluetooth device battery level percentage in text"
-msgstr "Exibe a porcentagem do nível da bateria do dispositivo Bluetooth em texto"
+msgstr ""
+"Exibe a porcentagem do nível da bateria do dispositivo Bluetooth em texto"
 
 #: ui/quickSettings.ui:36
 msgid "Display battery level icon before text"
@@ -306,10 +330,13 @@ msgid "Sort devices by connection history"
 msgstr "Ordenar dispositivos pelo histórico de conexão"
 
 #: ui/quickSettings.ui:49
-msgid "Enable to sort devices by connection history, or disable to sort by connection status and alias"
-msgstr "Habilita a ordem pelo histórico de conexão, ou desabilita a ordem pelo estado de conexão e nome"
+msgid ""
+"Enable to sort devices by connection history, or disable to sort by "
+"connection status and alias"
+msgstr ""
+"Habilita a ordem pelo histórico de conexão, ou desabilita a ordem pelo "
+"estado de conexão e nome"
 
 #: ui/quickSettings.ui:62
 msgid "Note!"
 msgstr "Observação!"
-

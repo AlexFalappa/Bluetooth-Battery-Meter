@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluetooth-battery-meter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-21 22:33-0800\n"
+"POT-Creation-Date: 2025-01-02 18:42-0800\n"
 "PO-Revision-Date: 2024-12-26 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
@@ -25,7 +25,7 @@ msgstr "قطع ارتباط"
 msgid "Connect"
 msgstr "اتّصال"
 
-#: lib/bluetoothToggle.js:410
+#: lib/bluetoothToggle.js:422
 #, javascript-format
 msgid "%d Connected"
 msgid_plural "%d Connected"
@@ -43,8 +43,11 @@ msgstr "کپی رایت %s %s"
 
 #: preferences/about.js:48
 #, javascript-format
-msgid "This application comes with absolutely no warranty. See the <a href=\"%s\">%s</a> for details."
-msgstr "این برنامه بی هیچ ضمانتی می‌آید. برای جزيیات <a href=\"%s\">%s</a> را ببینید."
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"این برنامه بی هیچ ضمانتی می‌آید. برای جزيیات <a href=\"%s\">%s</a> را ببینید."
 
 #: preferences/device.js:36
 msgid "Battery Status:"
@@ -119,7 +122,8 @@ msgid "Configure device."
 msgstr "پیکربندی دستگاه ها."
 
 #: preferences/device.js:200
-msgid "Delete device information: The button is available after unpairing device"
+msgid ""
+"Delete device information: The button is available after unpairing device"
 msgstr "حذف اطلاعات دستگاه ها: دکمه بعد از قطع شدن جفت سازی دستگاه"
 
 #: preferences/device.js:231
@@ -142,8 +146,14 @@ msgstr "انتخاب رنگ برای مقدار درصد باتری %d - %d"
 
 #: preferences/quickSettings.js:53
 #, javascript-format
-msgid "Certain Bluetooth devices do not report battery level until Bluez's experimental features are enabled in system. Check <a href=\"%s\">Readme</a> for details."
-msgstr "بعضی از دستگاه های بلوتوثی نمیتوانند مقدار باتری را برای ما ارسال کنند تا وقتی که حالت آزمایشی Bluez در سیستمشان فعال نباشد. برای اطلاعات بیشتر <a href=\"%s\"> کلیک </a> کنید."
+msgid ""
+"Certain Bluetooth devices do not report battery level until Bluez's "
+"experimental features are enabled in system. Check <a href=\"%s\">Readme</a> "
+"for details."
+msgstr ""
+"بعضی از دستگاه های بلوتوثی نمیتوانند مقدار باتری را برای ما ارسال کنند تا "
+"وقتی که حالت آزمایشی Bluez در سیستمشان فعال نباشد. برای اطلاعات بیشتر <a "
+"href=\"%s\"> کلیک </a> کنید."
 
 #: ui/about.ui:5
 msgid "About"
@@ -218,8 +228,11 @@ msgid "Bluetooth Connection Status Indicator"
 msgstr "شاخص وضعیت اتصال بلوتوث"
 
 #: ui/indicator.ui:38
-msgid "Hide conditionally: Displayed only when no other bluetooth related indicators are present"
-msgstr "مخفی کردن شرطی: فقط وقتی نشان بده که هیچ شاخص بلوتوثی مربوط وجود نداشته باشد"
+msgid ""
+"Hide conditionally: Displayed only when no other bluetooth related "
+"indicators are present"
+msgstr ""
+"مخفی کردن شرطی: فقط وقتی نشان بده که هیچ شاخص بلوتوثی مربوط وجود نداشته باشد"
 
 #: ui/indicator.ui:52
 msgid "Indicator Widget Settings"
@@ -306,10 +319,13 @@ msgid "Sort devices by connection history"
 msgstr "مرتب کردن برا اساس تاریخچه اتصال"
 
 #: ui/quickSettings.ui:49
-msgid "Enable to sort devices by connection history, or disable to sort by connection status and alias"
-msgstr "فعالسازی مرتب کردن دستگاه ها بر اساس تاریخچه اتصال یا غیر فعال سازی مرتب کردن بر اساس وضعیت و الیاس"
+msgid ""
+"Enable to sort devices by connection history, or disable to sort by "
+"connection status and alias"
+msgstr ""
+"فعالسازی مرتب کردن دستگاه ها بر اساس تاریخچه اتصال یا غیر فعال سازی مرتب "
+"کردن بر اساس وضعیت و الیاس"
 
 #: ui/quickSettings.ui:62
 msgid "Note!"
 msgstr "یادداشت!"
-
